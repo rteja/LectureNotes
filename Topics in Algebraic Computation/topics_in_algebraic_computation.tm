@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.16>
+<TeXmacs|1.0.7.21>
 
 <style|article>
 
@@ -14,15 +14,15 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1><vspace|0.5fn>
 
-    <with|par-left|1.5fn|1.1<space|2spc>Overview
+    <with|par-left|1tab|1.1<space|2spc>Overview
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-2>>
 
-    <with|par-left|1.5fn|1.2<space|2spc>References
+    <with|par-left|1tab|1.2<space|2spc>References
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-3>>
 
-    <with|par-left|1.5fn|1.3<space|2spc>Evaluation
+    <with|par-left|1tab|1.3<space|2spc>Evaluation
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-4>>
 
@@ -30,7 +30,7 @@
     Canonical Form> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-5><vspace|0.5fn>
 
-    <with|par-left|1.5fn|2.1<space|2spc>Sweep-out Method
+    <with|par-left|1tab|2.1<space|2spc>Sweep-out Method
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-6>>
 
@@ -39,16 +39,16 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-7><vspace|0.5fn>
 
-    <with|par-left|3fn|3.0.1<space|2spc>Efficient Methods for Multiplying
+    <with|par-left|2tab|3.0.1<space|2spc>Efficient Methods for Multiplying
     Matrices and Polynomials <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-8>>
 
-    <with|par-left|3fn|3.0.2<space|2spc>Matrix Multiplication
+    <with|par-left|2tab|3.0.2<space|2spc>Matrix Multiplication
     <with|mode|math|\<Leftrightarrow\>> Matrix Inversion
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-9>>
 
-    <with|par-left|3fn|3.0.3<space|2spc>Computing matrix determinant.
+    <with|par-left|2tab|3.0.3<space|2spc>Computing matrix determinant.
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-10>>
 
@@ -64,11 +64,11 @@
     Fourier Transform> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-13><vspace|0.5fn>
 
-    <with|par-left|1.5fn|6.1<space|2spc>Bit-Complexity of Fast Fourier
+    <with|par-left|1tab|6.1<space|2spc>Bit-Complexity of Fast Fourier
     Transform <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-14>>
 
-    <with|par-left|1.5fn|6.2<space|2spc>Schonhage-Strassen algorithm
+    <with|par-left|1tab|6.2<space|2spc>Schonhage-Strassen algorithm
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-15>>
 
@@ -81,11 +81,11 @@
     Common Divisor> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-17><vspace|0.5fn>
 
-    <with|par-left|1.5fn|8.1<space|2spc>Euclidean GCD Algorithm
+    <with|par-left|1tab|8.1<space|2spc>Euclidean GCD Algorithm
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-18>>
 
-    <with|par-left|1.5fn|8.2<space|2spc>Half-GCD Algorithm
+    <with|par-left|1tab|8.2<space|2spc>Half-GCD Algorithm
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-19>>
 
@@ -93,13 +93,35 @@
     Factoring> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-20><vspace|0.5fn>
 
-    <with|par-left|1.5fn|9.1<space|2spc>Berlekamp's Method
+    <with|par-left|1tab|9.1<space|2spc>Berlekamp's Method
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-21>>
 
-    <with|par-left|1.5fn|9.2<space|2spc>Cantor-Zassenhaus randomized
-    algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|1tab|9.2<space|2spc>Cantor-Zassenhaus randomized algorithm
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-22>>
+
+    <with|par-left|1tab|9.3<space|2spc>Factorization over
+    <with|mode|math|\<bbb-Z\><around*|[|x|]>>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-23>>
+
+    <with|par-left|2tab|9.3.1<space|2spc>Hensel Lifting
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-24>>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|10<space|2spc>Ideals
+    and Varieties> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-25><vspace|0.5fn>
+
+    <with|par-left|1tab|10.1<space|2spc>Multivariate Polynomials
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-26>>
+
+    <with|par-left|1tab|10.2<space|2spc>Division algorithm in
+    <with|mode|math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-27>>
   </table-of-contents>
 
   <new-page>
@@ -1526,6 +1548,184 @@
   <hrule>
 
   \;
+
+  <section|Ideals and Varieties>
+
+  In this section essentially we will be studying Hilbert Basis Theorem,
+  Grobner Basis and Buchberger's Algorithm for computing Grobner's
+  Basis<\footnote>
+    Grober is Buchberger's Thesis advisor.
+  </footnote>. \ 
+
+  <subsection|Multivariate Polynomials>
+
+  Moving from uni-variate to bi-variate or multi-variate polynomial rings
+  requires a change in intuition and in this lecture we shall focus on the
+  aspects that differentiate them. For example, we know that a polynomial of
+  degree <math|n> can have atmost <math|n> roots in any field, but however
+  this need not be the case for multivariate polynomials as the following
+  example illustrates.
+
+  <\example>
+    Consider <math|f\<in\>\<bbb-C\><around*|[|x,y|]>> and
+    <math|f<around*|(|x,y|)>=y-x> then any element of the set
+    <math|<around*|{|<around*|(|c,c|)><around*|\||c\<in\>\<bbb-C\>|\<nobracket\>>|}>>
+    is a root of <math|f> and the set is infinite. So this is an example of a
+    polynomial with finite degree with infinite number roots.
+  </example>
+
+  <\definition>
+    <dueto|Monomial>Given the inderminates of the polynomial ring as
+    <math|x<rsub|i>,1\<leqslant\>i\<leqslant\>n> any formal product of the
+    form <math|x<rsub|1><rsup|\<alpha\><rsub|1>>x<rsub|2><rsup|\<alpha\><rsub|2>>\<ldots\>x<rsub|n><rsup|\<alpha\><rsub|n>>>
+    for <math|\<alpha\><rsub|i>\<geqslant\>0> is called a Monomial.
+  </definition>
+
+  <\definition>
+    <dueto|Polynomial>If <math|\<bbb-F\>> is a field an element of the ring
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>x<rsub|n>|]>> with
+    <math|x<rsub|i>> as indeterminates is a set of finite formal sum of the
+    form <math|<big|sum><rsub|\<alpha\>>a<rsub|\<alpha\>>x<rsup|\<alpha\>>>
+    where <math|\<alpha\>\<in\>\<bbb-N\><rsup|n>>. An element of the ring is
+    called Polynomial.
+  </definition>
+
+  <\note>
+    If <math|\<alpha\>\<in\>\<bbb-N\><rsup|n>> we shall define
+    <math|<around*|\||\<alpha\>|\|>=<big|sum><rsub|1\<leqslant\>i\<leqslant\>n>\<alpha\><rsub|i>>.
+  </note>
+
+  <\note>
+    If <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then <math|deg<around*|(|f|)>=max<around*|(|<around*|{|<around*|\||\<alpha\>|\|>,a<rsub|\<alpha\>>\<neq\>0|}>|)>>
+    </note>
+
+  <\definition>
+    <dueto|Monomial Ordering>Given <math|x<rsub|i>,1\<leqslant\>i\<leqslant\>n>
+    as inderminates, Monomial ordering is a linear ordering
+    <math|<around*|(|\<gtr\>|)>> on the set of monomials formed with those
+    inderminates satsisfying certain regularity properties:
+
+    <\enumerate-roman>
+      <item>If <math|\<alpha\>,\<beta\>,\<gamma\>> are monomials such that
+      <math|\<alpha\>\<gtr\>\<beta\>> then
+      <math|\<alpha\>\<gamma\>\<gtr\>\<beta\>\<gamma\>>.
+
+      <item><math|\<gtr\>> is a well-ordering on set of Monomials.
+    </enumerate-roman>
+  </definition>
+
+  <\note>
+    It is obvious to see that ordering of monomials formed with <math|n>
+    indeterminates transforms into ordering on <math|\<bbb-N\><rsup|n>>.
+    Going forward we shall interchange between these ideas.
+  </note>
+
+  <\example>
+    <dueto|Lex>Given <math|\<alpha\>,\<beta\>\<in\>\<bbb-N\><rsup| n>> we say
+    that <math|\<alpha\>\<gtr\><rsub|Lex>\<beta\>> if the left most non-zero
+    entry of <math|\<alpha\>-\<beta\>> is positive.
+  </example>
+
+  <\example>
+    <dueto|Graded Lex>Given <math|\<alpha\>,\<beta\>\<in\>\<bbb-N\><rsup|n>>
+    we say that <math|\<alpha\>\<gtr\><rsub|GrLex>\<beta\>> if
+    <math|<around*|\||\<alpha\>|\|>\<gtr\><around*|\||\<beta\>|\|>> or if
+    <math|<around*|\||\<alpha\>|\|>=<around*|\||\<beta\>|\|>> then
+    <math|\<alpha\>\<gtr\><rsub|Lex>\<beta\>>.
+  </example>
+
+  <\exercise>
+    Prove that Lex and Graded Lex orderings are Monomial Orderings.
+  </exercise>
+
+  <\definition>
+    Let <math|f<around*|(|x|)>=<big|sum><rsub|\<alpha\>>a<rsub|\<alpha\>>x<rsup|\<alpha\>>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    and <math|\<gtr\>> be a monomial ordering on
+    <math|x<rsub|i>,1\<leqslant\>i\<leqslant\>n> and <math|f\<neq\>0>. Then
+    we define the following:
+
+    <\enumerate-roman>
+      <item><math|multideg<around*|(|f|)>=>max
+      <math|<around*|{|\<alpha\>\<in\>\<bbb-N\><rsup|n><around*|\||a<rsub|\<alpha\>>\<neq\>0|\<nobracket\>>|}>>
+
+      <item><math|leadingCoefficient<around*|(|f|)>> =
+      <math|a<rsub|multideg<around*|(|f|)>>>
+
+      <item><math|leadingMonomial<around*|(|f|)>> =
+      <math|x<rsup|multideg<around*|(|f|)>>>
+
+      <item><math|leadingTerm<around*|(|f|)>>=
+      <math|a<rsub|multideg<around*|(|f|)>>x<rsup|multideg<around*|(|f|)>>>
+    </enumerate-roman>
+  </definition>
+
+  <\proposition>
+    Given <math|f,g\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then we have the following properties:
+
+    <\enumerate-roman>
+      <item><math|multideg<around*|(|f g|)>=><math|multideg<around*|(|f|)>+><math|multideg<around*|(|g|)>>
+
+      <item><math|f+g\<neq\>0 \<Rightarrow\>>
+      <math|multideg<around*|(|f+g|)>\<leqslant\>
+      max<around*|(|multideg<around*|(|f|)>,multideg<around*|(|g|)>|)>> and
+      if <math|multideg<around*|(|f|)>\<neq\>multideg<around*|(|g|)>> then
+      equalitiy holds, however this is not a necessary condition.
+    </enumerate-roman>
+  </proposition>
+
+  <subsection|Division algorithm in <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>>
+
+  In this we primarily aim at investigating membership of
+  <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>> in an
+  ideal generated by some elements of the ring. More precisely, given
+  <math|f<rsub|1>,\<ldots\>f<rsub|s>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+  we would like to know if there exist <math|a<rsub|i>,1\<leqslant\>i\<leqslant\>s>
+  such that <math|f=<big|sum><rsub|1\<leqslant\>i\<leqslant\>s>a<rsub|i>f<rsub|i>+r>
+  where <math|r,a<rsub|i>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>.
+
+  <\note>
+    In such a decomposition of <math|f> shown above the coefficients of
+    <math|f<rsub|i>> generally depend on the chosen Monomial ordering.
+  </note>
+
+  <\theorem>
+    Let <math|<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s>|)>> be an ordered
+    tuple of polynomials in <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then every <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    can be written as <math|f=<big|sum><rsub|1\<leqslant\>i\<leqslant\>s>a<rsub|i>f<rsub|i>+r>,
+    where <math|a<rsub|i>,r\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    and either <math|r=0> or <math|r> is such that it is divisible by none of
+    <math|leadingTerm<around*|(|f<rsub|i>|)>>.
+  </theorem>
+
+  <\note>
+    <math|r=0> is sufficient to show that
+    <math|f\<in\>\<less\>f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>> but not
+    necessary. This is evident from the following example.
+  </note>
+
+  <\example>
+    Let <math|f<around*|(|x,y|)>=x y<rsup|2>-x> and
+    <math|f<rsub|1><around*|(|x,y|)>=x y+1> and
+    <math|f<rsub|2><around*|(|x,y|)>=y<rsup|2>-1> considering the monomial
+    ordering as <math|\<gtr\><rsub|Lex>> we have <math|x
+    y<rsup|2>-x=y<around*|(|x y+1|)>+0<around*|(|y<rsup|2>-1|)>+<around*|(|-x-y|)>>
+    if we considering ordering on <math|f<rsub|i>> as
+    <math|f<rsub|1>\<gtr\>f<rsub|2>>, else we get <math|x
+    y<rsup|2>-x=x<around*|(|y<rsup|2>-1|)>+0<around*|(|x y+1|)>+0>.
+  </example>
+
+  \;
+
+  \;
+
+  \;
+
+  \;
+
+  \;
 </body>
 
 <\references>
@@ -1547,6 +1747,9 @@
     <associate|auto-22|<tuple|9.2|14>>
     <associate|auto-23|<tuple|9.3|15>>
     <associate|auto-24|<tuple|9.3.1|15>>
+    <associate|auto-25|<tuple|10|16>>
+    <associate|auto-26|<tuple|10.1|16>>
+    <associate|auto-27|<tuple|10.2|17>>
     <associate|auto-3|<tuple|1.2|2>>
     <associate|auto-4|<tuple|1.3|2>>
     <associate|auto-5|<tuple|2|3>>
@@ -1554,6 +1757,8 @@
     <associate|auto-7|<tuple|3|6>>
     <associate|auto-8|<tuple|3.0.1|6>>
     <associate|auto-9|<tuple|3.0.2|7>>
+    <associate|footnote-1|<tuple|1|16>>
+    <associate|footnr-1|<tuple|1|16>>
   </collection>
 </references>
 
@@ -1564,15 +1769,15 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1.5fn>|1.1<space|2spc>Overview
+      <with|par-left|<quote|1tab>|1.1<space|2spc>Overview
       \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|1.5fn>|1.2<space|2spc>References
+      <with|par-left|<quote|1tab>|1.2<space|2spc>References
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1.5fn>|1.3<space|2spc>Evaluation
+      <with|par-left|<quote|1tab>|1.3<space|2spc>Evaluation
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
@@ -1580,7 +1785,7 @@
       Canonical Form> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.5fn>
 
-      <with|par-left|<quote|1.5fn>|2.1<space|2spc>Sweep-out Method
+      <with|par-left|<quote|1tab>|2.1<space|2spc>Sweep-out Method
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>>
 
@@ -1589,17 +1794,17 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.5fn>
 
-      <with|par-left|<quote|3fn>|3.0.1<space|2spc>Efficient Methods for
+      <with|par-left|<quote|2tab>|3.0.1<space|2spc>Efficient Methods for
       Multiplying Matrices and Polynomials
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|3fn>|3.0.2<space|2spc>Matrix Multiplication
+      <with|par-left|<quote|2tab>|3.0.2<space|2spc>Matrix Multiplication
       <with|mode|<quote|math>|\<Leftrightarrow\>> Matrix Inversion
       \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      <with|par-left|<quote|3fn>|3.0.3<space|2spc>Computing matrix
+      <with|par-left|<quote|2tab>|3.0.3<space|2spc>Computing matrix
       determinant. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10>>
 
@@ -1615,12 +1820,12 @@
       Fourier Transform> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13><vspace|0.5fn>
 
-      <with|par-left|<quote|1.5fn>|6.1<space|2spc>Bit-Complexity of Fast
+      <with|par-left|<quote|1tab>|6.1<space|2spc>Bit-Complexity of Fast
       Fourier Transform <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14>>
 
-      <with|par-left|<quote|1.5fn>|6.2<space|2spc>Schonhage-Strassen
-      algorithm \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1tab>|6.2<space|2spc>Schonhage-Strassen algorithm
+      \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>Computational
@@ -1632,11 +1837,11 @@
       Common Divisor> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17><vspace|0.5fn>
 
-      <with|par-left|<quote|1.5fn>|8.1<space|2spc>Euclidean GCD Algorithm
+      <with|par-left|<quote|1tab>|8.1<space|2spc>Euclidean GCD Algorithm
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18>>
 
-      <with|par-left|<quote|1.5fn>|8.2<space|2spc>Half-GCD Algorithm
+      <with|par-left|<quote|1tab>|8.2<space|2spc>Half-GCD Algorithm
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19>>
 
@@ -1644,22 +1849,35 @@
       Factoring> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20><vspace|0.5fn>
 
-      <with|par-left|<quote|1.5fn>|9.1<space|2spc>Berlekamp's Method
+      <with|par-left|<quote|1tab>|9.1<space|2spc>Berlekamp's Method
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21>>
 
-      <with|par-left|<quote|1.5fn>|9.2<space|2spc>Cantor-Zassenhaus
-      randomized algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1tab>|9.2<space|2spc>Cantor-Zassenhaus randomized
+      algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22>>
 
-      <with|par-left|<quote|1.5fn>|9.3<space|2spc>Factorization over
+      <with|par-left|<quote|1tab>|9.3<space|2spc>Factorization over
       <with|mode|<quote|math>|\<bbb-Z\><around*|[|x|]>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-23>>
 
-      <with|par-left|<quote|3fn>|9.3.1<space|2spc>Hensel Lifting
+      <with|par-left|<quote|2tab>|9.3.1<space|2spc>Hensel Lifting
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-24>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|10<space|2spc>Ideals
+      and Varieties> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-25><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|10.1<space|2spc>Multivariate Polynomials
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-26>>
+
+      <with|par-left|<quote|1tab>|10.2<space|2spc>Division algorithm in
+      <with|mode|<quote|math>|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-27>>
     </associate>
   </collection>
 </auxiliary>
