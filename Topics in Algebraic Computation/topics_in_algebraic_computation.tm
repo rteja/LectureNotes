@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.21>
+<TeXmacs|1.0.7.18>
 
-<style|article>
+<style|<tuple|article|number-europe>>
 
 <\body>
   \;
@@ -14,15 +14,15 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-1><vspace|0.5fn>
 
-    <with|par-left|1tab|1.1<space|2spc>Overview
+    <with|par-left|1.5fn|1.1<space|2spc>Overview
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-2>>
 
-    <with|par-left|1tab|1.2<space|2spc>References
+    <with|par-left|1.5fn|1.2<space|2spc>References
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-3>>
 
-    <with|par-left|1tab|1.3<space|2spc>Evaluation
+    <with|par-left|1.5fn|1.3<space|2spc>Evaluation
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-4>>
 
@@ -30,7 +30,7 @@
     Canonical Form> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-5><vspace|0.5fn>
 
-    <with|par-left|1tab|2.1<space|2spc>Sweep-out Method
+    <with|par-left|1.5fn|2.1<space|2spc>Sweep-out Method
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-6>>
 
@@ -39,16 +39,16 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-7><vspace|0.5fn>
 
-    <with|par-left|2tab|3.0.1<space|2spc>Efficient Methods for Multiplying
+    <with|par-left|3fn|3.0.1<space|2spc>Efficient Methods for Multiplying
     Matrices and Polynomials <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-8>>
 
-    <with|par-left|2tab|3.0.2<space|2spc>Matrix Multiplication
+    <with|par-left|3fn|3.0.2<space|2spc>Matrix Multiplication
     <with|mode|math|\<Leftrightarrow\>> Matrix Inversion
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-9>>
 
-    <with|par-left|2tab|3.0.3<space|2spc>Computing matrix determinant.
+    <with|par-left|3fn|3.0.3<space|2spc>Computing matrix determinant.
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-10>>
 
@@ -64,11 +64,11 @@
     Fourier Transform> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-13><vspace|0.5fn>
 
-    <with|par-left|1tab|6.1<space|2spc>Bit-Complexity of Fast Fourier
+    <with|par-left|1.5fn|6.1<space|2spc>Bit-Complexity of Fast Fourier
     Transform <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-14>>
 
-    <with|par-left|1tab|6.2<space|2spc>Schonhage-Strassen algorithm
+    <with|par-left|1.5fn|6.2<space|2spc>Schonhage-Strassen algorithm
     \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-15>>
 
@@ -81,11 +81,11 @@
     Common Divisor> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-17><vspace|0.5fn>
 
-    <with|par-left|1tab|8.1<space|2spc>Euclidean GCD Algorithm
+    <with|par-left|1.5fn|8.1<space|2spc>Euclidean GCD Algorithm
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-18>>
 
-    <with|par-left|1tab|8.2<space|2spc>Half-GCD Algorithm
+    <with|par-left|1.5fn|8.2<space|2spc>Half-GCD Algorithm
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-19>>
 
@@ -93,20 +93,20 @@
     Factoring> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-20><vspace|0.5fn>
 
-    <with|par-left|1tab|9.1<space|2spc>Berlekamp's Method
+    <with|par-left|1.5fn|9.1<space|2spc>Berlekamp's Method
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-21>>
 
-    <with|par-left|1tab|9.2<space|2spc>Cantor-Zassenhaus randomized algorithm
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|1.5fn|9.2<space|2spc>Cantor-Zassenhaus randomized
+    algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-22>>
 
-    <with|par-left|1tab|9.3<space|2spc>Factorization over
+    <with|par-left|1.5fn|9.3<space|2spc>Factorization over
     <with|mode|math|\<bbb-Z\><around*|[|x|]>>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-23>>
 
-    <with|par-left|2tab|9.3.1<space|2spc>Hensel Lifting
+    <with|par-left|3fn|9.3.1<space|2spc>Hensel Lifting
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-24>>
 
@@ -114,19 +114,55 @@
     and Varieties> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-25><vspace|0.5fn>
 
-    <with|par-left|1tab|10.1<space|2spc>Multivariate Polynomials
+    <with|par-left|1.5fn|10.1<space|2spc>Multivariate Polynomials
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-26>>
 
-    <with|par-left|1tab|10.2<space|2spc>Division algorithm in
+    <with|par-left|1.5fn|10.2<space|2spc>Division algorithm in
     <with|mode|math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-27>>
+
+    <with|par-left|1.5fn|10.3<space|2spc>Hilbert's Nullstellensatz
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-28>>
+
+    <with|par-left|1.5fn|10.4<space|2spc>Grobner Basis
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-29>>
+
+    <with|par-left|3fn|10.4.1<space|2spc>Properties of Grobner Basis
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-30>>
+
+    <vspace*|1fn><with|font-series|bold|math-font-series|bold|11<space|2spc>Lattices>
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-31><vspace|0.5fn>
+
+    <with|par-left|1.5fn|11.1<space|2spc>Introduction
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-32>>
+
+    <with|par-left|1.5fn|11.2<space|2spc>Some Important problems in Lattices
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-33>>
+
+    <with|par-left|1.5fn|11.3<space|2spc>Minkowski's Theorems
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-34>>
+
+    <with|par-left|1.5fn|11.4<space|2spc>Dual Lattices
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-35>>
   </table-of-contents>
 
   <new-page>
 
   <section|Introduction>
+
+  Notes for Lectures in the course ``Topics in Algebraic Computation'' given
+  by Prof.Palash Sarkar, ASU, Indian Statistical Institute. This course has
+  been offered as a part of M.Tech Computer Science course curriculum.
 
   <subsection|Overview >
 
@@ -562,7 +598,7 @@
   T<around*|(|<frac|n|2>|)>+18<around*|(|<frac|n<rsup|2>|4>|)>>. Since the
   above procedure requires computing <math|7> products and 18 sums of order
   <math|<frac|n|2>\<times\><frac|n|2>>. Then
-  <math|T<around*|(|n|)>=O<around*|(|n<rsup|log<rsub|2><rsup|7>>|)>=O<around*|(|n<rsup|\<sim\>2.81>|)>.>
+  <math|T<around*|(|n|)>=O<around*|(|n<rsup|log<rsub|2><rsup|7>>|)>=O<around*|(|n<rsup|\<sim\>2.81>|)>>.
 
   <\note>
     In the above method clearly works only when the order of matrix is a
@@ -676,7 +712,7 @@
   <subsubsection|Computing matrix determinant.>
 
   <\lemma>
-    If we can decompose a matrix <math|A= L U P\<nocomma\>,>then
+    If we can decompose a matrix <math|A= L U P\<nocomma\>>,then
     <math|det<around*|(|A|)>=<around*|(|-1|)><rsup|Sgn<around*|(|P|)>>det<around*|(|U|)>>.
   </lemma>
 
@@ -713,7 +749,7 @@
       i>>.
 
       <item><math|det<around*|(|A|)>=<around*|(|-1|)><rsup|Sgn<around*|(|P|)>><big|prod><rsub|i=1><rsup|n>u<rsub|i
-      i>.>
+      i>>.
     </enumerate-numeric>
 
     Since, <math|L U P> decomposition requries
@@ -1292,8 +1328,8 @@
   Fix a prime finite field <math|\<bbb-F\><rsub|p>>. Let
   <math|f<around*|(|x|)>\<in\>\<bbb-F\><rsub|p><around*|[|x|]>> and
   <math|deg<around*|(|f|)>=n>. Without loss of generality we shall consider
-  <math|f> is a square-free polynomial, for otherwise we can make it square
-  free using the following lemma:
+  <math|f> as a square-free polynomial, for otherwise we can make it square
+  free as follows.
 
   <\definition>
     <dueto|Derivative>If <math|f<around*|(|x|)>\<in\>R<around*|[|x|]>> where
@@ -1329,7 +1365,7 @@
 
   Over <math|\<bbb-F\><rsub|p>> we know that <math|x<rsup|p>\<equiv\>x
   <around*|(|mod p|)>,\<forall\>x\<in\>\<bbb-F\><rsub|p>>. Also let
-  <math|g<around*|(|x|)>=<around*|(|x<rsup|p>-x|)><rsup|<rprime|'>>=p
+  <math|g<around*|(|x|)>=<around*|(|x<rsup|p>-x|)><rprime|'>=p
   x<rsup|p-1>-1=-1> in <math|\<bbb-F\><rsub|p><around*|[|x|]>>. So
   <math|f<around*|(|x|)>=x<rsup|p>-x> is square-free. Hence
   <math|f<around*|(|x|)>=<around*|(|x<rsup|p>-x|)>=<big|prod><rsub|i\<in\>\<bbb-F\><rsub|p>><around*|(|x-i|)>>.
@@ -1422,7 +1458,7 @@
   iff <math|s<rsub|i>> are all Quadratic Non Residues and this happens with
   probabilty <math|<around*|(|<frac|p+1|2 p>|)><rsup|r>>. So, combining above
   cases probability that <math|gcd<around*|(|<around*|(|v<around*|(|x|)>|)><rsup|<frac|p-1|2>>-1,f<around*|(|x|)>|)>>
-  is non-trivial is atlesat <math|1-<around*|(|<frac|p-1|2
+  is non-trivial is atleast <math|1-<around*|(|<frac|p-1|2
   p>|)><rsup|r>-<around*|(|<frac|p+1|2 p>|)><rsup|r>\<gtr\><around*|(|<frac|4|9>|)>>.
 
   \;
@@ -1445,7 +1481,7 @@
   <\note>
     There exist polynomials which have consistent degree factorization in
     <math|\<bbb-Z\><rsub|p>> for every prime <math|p> but not in
-    <math|\<bbb-Z\>.>
+    <math|\<bbb-Z\>>.
   </note>
 
   <\note>
@@ -1488,7 +1524,7 @@
     </enumerate-roman>
 
     then there exist polynomials <math|V<around*|(|x|)>,W<around*|(|x|)>>
-    such that <math|>:
+    such that :
 
     <\enumerate-roman>
       <item><math|u<around*|(|x|)>=V<around*|(|x|)>W<around*|(|x|)>> in
@@ -1521,7 +1557,7 @@
     Then, there are polynomials <math|v<rsub|e+1><around*|(|x|)>> and
     <math|w<rsub|e+1><around*|(|x|)>> satisfying the same conditions <math|e>
     increased by 1. Further <math|v<rsub|e+1><around*|(|x|)>> and
-    <math|w<rsub|e+1><around*|(|x|)>> are unique modulo <math|p<rsup|e+1>.>
+    <math|w<rsub|e+1><around*|(|x|)>> are unique modulo <math|p<rsup|e+1>>.
   </lemma>
 
   Using this lemma once we have factorization in <math|\<bbb-Z\><rsub|p>> we
@@ -1547,14 +1583,12 @@
 
   <hrule>
 
-  \;
-
   <section|Ideals and Varieties>
 
   In this section essentially we will be studying Hilbert Basis Theorem,
   Grobner Basis and Buchberger's Algorithm for computing Grobner's
   Basis<\footnote>
-    Grober is Buchberger's Thesis advisor.
+    Grobner is Buchberger's Thesis advisor.
   </footnote>. \ 
 
   <subsection|Multivariate Polynomials>
@@ -1598,7 +1632,7 @@
   <\note>
     If <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
     then <math|deg<around*|(|f|)>=max<around*|(|<around*|{|<around*|\||\<alpha\>|\|>,a<rsub|\<alpha\>>\<neq\>0|}>|)>>
-    </note>
+  </note>
 
   <\definition>
     <dueto|Monomial Ordering>Given <math|x<rsub|i>,1\<leqslant\>i\<leqslant\>n>
@@ -1665,7 +1699,7 @@
     then we have the following properties:
 
     <\enumerate-roman>
-      <item><math|multideg<around*|(|f g|)>=><math|multideg<around*|(|f|)>+><math|multideg<around*|(|g|)>>
+      <item><math|multideg<around*|(|f g|)>=multideg<around*|(|f|)>+multideg<around*|(|g|)>>
 
       <item><math|f+g\<neq\>0 \<Rightarrow\>>
       <math|multideg<around*|(|f+g|)>\<leqslant\>
@@ -1719,6 +1753,867 @@
 
   \;
 
+  <subsection|Hilbert's Nullstellensatz>
+
+  <\definition>
+    <dueto|Affine Variety>If <math|f<rsub|i>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    for <math|1\<leqslant\>i\<leqslant\>s> then the set of common solutions
+    of <math|f<rsub|i>> is called an Affine Variety. More precisely, an
+    Affine Variety is defined as <math|V<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s>|)>=<around*|{|<around*|(|a<rsub|1>,\<ldots\>,a<rsub|n>|)>\<in\>\<bbb-F\><rsup|n>:f<rsub|i><around*|(|a<rsub|1>,\<ldots\>,a<rsub|n>|)>=0,\<forall\>1\<leqslant\>i\<leqslant\>s|}>>
+  </definition>
+
+  <\example>
+    <math|V<around*|(|x<rsup|2>+y<rsup|2>-4|)>> is a circle,
+    <math|V<around*|(|x<rsup|2>+y<rsup|2>+1|)>=\<phi\>> etc.,.
+  </example>
+
+  <\proposition>
+    If <math|V,W> are affine varieties then so are <math|V<big|cap>W> and
+    <math|V<big|cup>W>.
+  </proposition>
+
+  <\proof>
+    If <math|V=V<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s>|)>> and
+    <math|W=V<around*|(|g<rsub|1>,\<ldots\>,g<rsub|t>|)>> then
+    <math|V<big|cap>W=V<around*|(|<around*|{|f<rsub|i>g<rsub|j>|}>|)>> and
+    <math|V<big|cup>W=V<around*|(|<around*|{|f<rsub|i>|}><big|cup><around*|{|g<rsub|j>|}>|)>>.
+  </proof>
+
+  An affine variety may be an infinite set, so compact representation of
+  affine variety may be useful in some cases. To that goal we aim to describe
+  the set concisely using some parameters. We call this parametrization.
+
+  <\example>
+    <math|V<around*|(|x<rsup|2>+y<rsup|2>-1|)>=<around*|{|<around*|(|cos<around*|(|t|)>,sin<around*|(|t|)>|)>:t\<geqslant\>0|}>=<around*|{|<around*|(|<frac|1-t<rsup|2>|1+t<rsup|2>>,<frac|2
+    t|1+t<rsup|2>>|)>|}><big|cup><around*|{|<around*|(|-1,0|)>|}>>. In this
+    case <math|t> is the parameter. And the second representation is called
+    <with|font-series|bold|Rational Parametrization>.
+  </example>
+
+  Suppose a parametric representation of an affine variety is given, can we
+  find the defining polynomials? This requires systematic elimination of
+  parameters, studied as Elimination Theory.\ 
+
+  <\notation>
+    If <math|f<rsub|i>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    are elements of the multinomial ring, then the ideal generated by
+    <math|f<rsub|i>> denoted as <math|\<less\>f<rsub|1>,\<ldots\>f<rsub|s>\<gtr\>>.
+  </notation>
+
+  <\definition>
+    If <math|I\<subset\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>x<rsub|n>|]>>
+    is an ideal and <math|I=\<less\>f<rsub|1>,\<ldots\>f<rsub|s>\<gtr\>> then
+    <math|I> is said to be finitely generated by
+    <math|<around*|{|f<rsub|1>,\<ldots\>f<rsub|s>|}>> and is called a basis
+    of <math|I>.
+  </definition>
+
+  <\proposition>
+    If <math|\<less\>f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>
+    =\<less\>g<rsub|1>,\<ldots\>g<rsub|s>\<gtr\>> then
+    <math|V<around*|(|f<rsub|1>,\<ldots\>f<rsub|s>|)>=V<around*|(|g<rsub|1>,\<ldots\>g<rsub|s>|)>>
+  </proposition>
+
+  <\proof>
+    Work out!
+  </proof>
+
+  <\definition>
+    Let <math|V> be an affine variety, then
+    <math|I<around*|(|V|)>=<around*|{|f:f<around*|(|a<rsub|1>,\<ldots\>a<rsub|n>|)>=0,\<forall\><around*|(|a<rsub|1>,\<ldots\>a<rsub|n>|)>\<in\>V|}>>
+  </definition>
+
+  <\proposition>
+    <math|I<around*|(|V|)>> is an ideal in
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>x<rsub|n>|]>>.
+  </proposition>
+
+  <\lemma>
+    If <math|f<rsub|1>,\<ldots\>f<rsub|s>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then <math|\<less\>f<rsub|1>,\<ldots\>f<rsub|s>\<gtr\>
+    \<subset\>I<around*|(|V<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s>|)>|)>>
+    and equality need not occur.
+  </lemma>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\proposition>
+    Let <math|V,W> be affine varieties, then\ 
+
+    <\enumerate-roman>
+      <item><math|V\<subset\>W\<Leftrightarrow\>I<around*|(|V|)>\<supset\>I<around*|(|W|)>>
+
+      <item><math|V=W\<Leftrightarrow\>I<around*|(|V|)>=I<around*|(|W|)>>
+    </enumerate-roman>
+  </proposition>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\theorem>
+    <dueto|Weak Nullstellensatz>Let <math|\<bbb-F\>> be an algebraically
+    closed field and let <math|\<cal-I\>> be an ideal of
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>> satisfying
+    <math|V<around*|(|\<cal-I\>|)>=\<phi\>>, then
+    <math|\<cal-I\>=\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>.
+  </theorem>
+
+  <\theorem>
+    <dueto|Hilbert's Nullstellensatz>Let <math|\<bbb-F\>> be an algebracially
+    closed field. If <math|f<rsub|1>,\<ldots\>,f<rsub|s>\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    are such that \ <math|f\<in\>I<around*|(|V<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s><rsub|>|)>|)>>
+    then there is an <math|m\<geqslant\>1> such that
+    <math|f<rsup|m>\<in\>\<less\>f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>>.
+  </theorem>
+
+  <\definition>
+    If <math|\<cal-I\>> is an ideal, then
+    <math|<sqrt|\<cal-I\>>=<around*|{|f:\<exists\>m,f<rsup|m>\<in\>\<cal-I\>|}>>
+  </definition>
+
+  <\definition>
+    <dueto|Radical Ideal>An ideal <math|I> such that if
+    <math|f<rsup|m>\<in\>I\<Rightarrow\>f\<in\>I> is called a Radical Ideal.
+  </definition>
+
+  <\proposition>
+    If <math|I> is an ideal then <math|<sqrt|I>> is a Radical ideal.
+  </proposition>
+
+  <\theorem>
+    <dueto|Strong Nullstellensatz>Let <math|\<bbb-F\>> be an algebraically
+    closed field. If <math|I> is an ideal of
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>> then
+    <math|I<around*|(|V<around*|(|I|)>|)>=<sqrt|I>>
+  </theorem>
+
+  <\definition>
+    An ideal <math|I\<subset\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    is a monomial ideal if <math|I=\<less\>x<rsup|\<alpha\>>:\<alpha\>\<in\>A\<gtr\>>
+    and <math|A\<subset\>\<bbb-N\><rsup|n>> and <math|A> need not be finite.
+  </definition>
+
+  <\exercise>
+    Verify that not all ideals are monomial ideals. (hint:
+    <math|<around*|{|x<rsup|4>y<rsup|2>,x<rsup|3>y<rsup|4>,x<rsup|2>y<rsup|5>|}>>)
+  </exercise>
+
+  \;
+
+  <\lemma>
+    Let <math|I=\<less\>x<rsup|\<alpha\>>:\<alpha\>\<in\>A\<gtr\>> be a
+    monomial ideal, then a monomial <math|x<rsup|\<beta\>>\<in\>I>
+    <math|\<Leftrightarrow\>> <math|x<rsup|\<alpha\>><around*|\||x<rsup|\<beta\>>|\<nobracket\>>,\<alpha\>\<in\>A>.
+  </lemma>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\definition>
+    Let <math|I\<neq\><around*|{|0|}> >be an ideal then the set of leading
+    terms of elements of <math|I> denoted by
+    <math|LT<around*|(|I|)>=<around*|{|LT<around*|(|f|)>:f\<in\>I|}>>
+  </definition>
+
+  <\note>
+    <math|LT<around*|(|I|)>> above is a monomial ideal.
+  </note>
+
+  <\note>
+    <math|\<less\>LT<around*|(|I|)>\<gtr\>> clearly depends on monomial
+    ordering.
+  </note>
+
+  <\note>
+    <math|\<less\>LT<around*|(|I|)>\<gtr\>=\<less\>LM<around*|(|I|)>\<gtr\>>
+  </note>
+
+  <\lemma>
+    Let <math|I> be a monomial ideal and <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then the following are equivalent:
+
+    <\enumerate-roman>
+      <item><math|f\<in\>I>
+
+      <item>every term of <math|f> is in <math|I>
+
+      <item><math|f> is an <math|\<bbb-F\>> linear combination of monomials
+      of <math|I>.
+    </enumerate-roman>
+  </lemma>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\corollary>
+    Two monomial ideals are equal <math|\<Leftrightarrow\>> they have the
+    same monomials.
+  </corollary>
+
+  <\theorem>
+    <dueto|Dickson's Lemma>Let <math|I=\<less\>x<rsup|\<alpha\>>,\<alpha\>\<in\>A\<gtr\>>
+    be a monomial ideal, then <math|I=\<less\>x<rsup|\<alpha\><rsub|1>>,\<ldots\>,x<rsup|\<alpha\><rsub|s>>\<gtr\>>for
+    <math|s\<geqslant\>1> and <math|\<alpha\><rsub|1>,\<ldots\>,\<alpha\><rsub|s>\<in\>A>.
+  </theorem>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\corollary>
+    Let <math|\<gtr\>> be a linear order on
+    <math|\<bbb-Z\><rsup|n><rsub|\<geqslant\>0>> satisfying the following
+    condition: if <math|\<alpha\>\<gtr\>\<beta\>> then
+    <math|\<alpha\>+\<gamma\>\<gtr\>\<beta\>+\<gamma\>> \ then <math|\<gtr\>>
+    is a well ordering <math|\<Leftrightarrow\>>
+    <math|\<alpha\>\<geqslant\>0<rsub|n>>
+    <math|\<forall\>\<alpha\>\<in\>\<bbb-Z\><rsub|\<geqslant\>0><rsup|n>>.
+  </corollary>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\proposition>
+    Suppose <math|I> is an ideal, then\ 
+
+    <\enumerate-alpha>
+      <item><math|\<less\>LT<around*|(|I|)>\<gtr\>> is a monomial ideal.
+
+      <item>There are <math|g<rsub|1>,\<ldots\>,g<rsub|s>> such that
+      <math|\<less\>LT<around*|(|I|)>\<gtr\> =
+      \<less\>LT<around*|(|g<rsub|1>|)>,\<ldots\>,LT<around*|(|g<rsub|s>|)>\<gtr\>>
+    </enumerate-alpha>
+  </proposition>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\note>
+    <math|g<rsub|1>,\<ldots\>,g<rsub|s>> form a basis for <math|I> and has
+    special properties. Such a basis for <math|I> is called Grobner Basis for
+    <math|I>. We shall study further properties of such a basis in the
+    following section.
+  </note>
+
+  <\theorem>
+    <dueto|Hilbert Basis Theorem>Every ideal <math|I> in
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]> >is \ finitely
+    generated <math|i.e>. <math|I=\<less\>g<rsub|1>,\<ldots\>,g<rsub|s>\<gtr\>>for
+    some <math|g<rsub|i>\<in\>I>.
+  </theorem>
+
+  <subsection|Grobner Basis>
+
+  <\definition>
+    <dueto|Grobner Basis>Fix a monomial order. A finite subset
+    <math|G=<around*|{|g<rsub|1>,\<ldots\>,g<rsub|s>|}>> of an ideal
+    <math|I\<neq\><around*|{|0|}>> is said to be Grobner basis if
+    <math|\<less\>LT<around*|(|g<rsub|1>|)>,\<ldots\>,LT<around*|(|g<rsub|n>|)>\<gtr\>=\<less\>LT<around*|(|I|)>\<gtr\>>.
+  </definition>
+
+  <\corollary>
+    Fix a monomial order, then every ideal <math|I\<neq\>\<phi\>> has a
+    Grobner basis. Further, any Grobner basis for an ideal <math|I> is a
+    basis for <math|I>.
+  </corollary>
+
+  <\proposition>
+    <math|V<around*|(|I|)>> is an affine variety. In particular if
+    <math|I=\<less\>f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>> then
+    <math|V<around*|(|I|)>=V<around*|(|f<rsub|1>,\<ldots\>,f<rsub|s>|)>>
+  </proposition>
+
+  <subsubsection|Properties of Grobner Basis>
+
+  <\proposition>
+    Let <math|G=<around*|{|g<rsub|1>,\<ldots\>,g<rsub|s>|}>> be a
+    <math|G->basis for ideal <math|I> and let
+    <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>. Then
+    there is a unique <math|r\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    s.t
+
+    <\enumerate-alpha>
+      <item>No terms of <math|r> is divisible by any of
+      <math|LT<around*|(|g<rsub|1>|)>,\<ldots\>,LT<around*|(|g<rsub|s>|)>>
+
+      <item>There is a <math|g\<in\>I> s.t <math|f=g+r>.
+    </enumerate-alpha>
+
+    In particular, <math|r> is the reminder when <math|f> is divided by
+    <math|G> no matter how the elements of <math|G> are ordered.
+  </proposition>
+
+  <\proof>
+    \;
+  </proof>
+
+  <\definition>
+    Let <math|S=<around*|(|f<rsub|1>,\<ldots\>f<rsub|s>|)>> be a tpi[;e pf
+    distinct polynomials and <math|f\<in\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    then <math|f<rsup|s>> is the reminder when <math|f> is divided by
+    <math|S>.
+  </definition>
+
+  <\corollary>
+    For a <math|G->basis, we can ignore the ordering of the elements of
+    <math|G> during division.
+  </corollary>
+
+  <\definition>
+    Suppose <math|f,g\<neq\>0>
+
+    <\enumerate-roman>
+      <item>If multideg<math|<around*|(|f|)>=\<alpha\>> and
+      multideg<math|<around*|(|g|)>=\<beta\>> then define
+      <math|\<gamma\>=<around*|(|\<gamma\><rsub|1>,\<ldots\>,\<gamma\><rsub|n>|)>>
+      where <math|\<gamma\><rsub|i>=max<around*|(|\<alpha\><rsub|i>,\<beta\><rsub|i>|)>>
+      then <math|x<rsup|\<gamma\>>=LCM<around*|(|x<rsup|\<alpha\>>,x<rsup|\<beta\>>|)>=LCM<around*|(|LM<around*|(|f|)>,LM<around*|(|g|)>|)>>.
+
+      <item><math|S->polynomial of <math|f,g> denoted
+      <math|S<around*|(|f,g|)>=<frac|x<rsup|\<gamma\>>|LT<around*|(|f|)>>f-<frac|x<rsup|\<gamma\>>|LT<around*|(|g|)>>g>
+    </enumerate-roman>
+  </definition>
+
+  <\note>
+    <math|S->polynomials cancel out the leading terms.\ 
+  </note>
+
+  <\lemma>
+    Let <math|f<rsub|1>,\<ldots\>,f<rsub|s>> be such that
+    multidegree<math|<around*|(|f<rsub|i>|)>=\<delta\>>. Define
+    <math|g=<big|sum><rsub|i=1><rsup|s>c<rsub|i>f<rsub|i> > and suppose
+    multidegree<math|<around*|(|g|)>\<less\>\<delta\>>. Then
+    <math|g=<big|sum>c<rprime|'><rsub|i j>S<around*|(|f<rsub|i>.f<rsub|j>|)>>
+    where <math|c<rprime|'><rsub|i j>\<in\>\<bbb-F\>> and each
+    multidegree<math|<around*|(|S<around*|(|f<rsub|i>,f<rsub|j>|)>|)>\<less\>\<delta\>>
+    cancellation of the leading term in <math|<big|sum>c<rsub|i>f<rsub|i>>
+    are accounted for by the <math|S> polynomials.
+  </lemma>
+
+  <\theorem>
+    <dueto|Buchberger Criterion>Let <math|I> be an ideal and
+    <math|G=<around*|{|g<rsub|1>,\<ldots\>g<rsub|s>|}>> be a basis for
+    <math|I>. Then <math|G> is a Grobner basis <math|\<Leftrightarrow\>>
+    <math|S<around*|(|g<rsub|i>,g<rsub|j>|)> mod G=0> <math|\<forall\>i,j>
+    and <math|G> taken in any order.
+  </theorem>
+
+  <hrule>
+
+  <\named-algorithm|<dueto|Buchberger's Algorithm>>
+    \;
+  </named-algorithm>
+
+  <hrule>
+
+  \;
+
+  <\lemma>
+    Let <math|G> be a <math|G->base for <math|I>. Let <math|p\<in\>G> be such
+    that \ <math|LT<around*|(|p|)>\<in\>\<less\>LT<around*|(|G-<around*|{|p|}>|)>\<gtr\>>
+    then <math|\<less\>LT<around*|(|G-<around*|{|p|}>|)>\<gtr\>=\<less\>
+    LT<around*|(|I|)>\<gtr\>>.
+  </lemma>
+
+  <\definition>
+    <dueto|Minimal G-basis>
+
+    <\itemize-dot>
+      <item><math|LC<around*|(|p|)>=1> for all <math|p\<in\>G>
+
+      <item>For all <math|p\<in\>G>, <math|LT<around*|(|p|)>\<in\>\<less\>LT<around*|(|G-<around*|{|p|}>|)>\<gtr\>>.
+    </itemize-dot>
+  </definition>
+
+  <\proposition>
+    If <math|G,<wide|G|~>> are two minimal <math|G->basis of <math|I> then
+    <math|LT<around*|(|G|)>=LT<around*|(|<wide|G|~>|)>>.
+  </proposition>
+
+  <\definition>
+    Reduced <math|G->basis for ideal <math|I>
+
+    <\itemize-dot>
+      <item><math|LC<around*|(|p|)>=1>, <math|p\<in\>G>
+
+      <item><math|\<forall\>p\<in\>G>,no monomial of <math|p> lies in
+      <math|\<less\>LT<around*|(|G-<around*|{|p|}>|)>\<gtr\>>.
+    </itemize-dot>
+  </definition>
+
+  <\theorem>
+    Let <math|I=<around*|{|0|}>> and fix a monomial order. Then <math|I> has
+    a unique reduced <math|G->basis.
+  </theorem>
+
+  <\proof>
+    Start with a minimal <math|G->basis for <math|I>. Let <math|g\<in\>G> and
+    let <math|g<rprime|'>=g mod <around*|(|G-<around*|{|g|}>|)>>. Define
+    <math|G<rprime|'>=<around*|(|G-<around*|{|g|}>|)><big|cup><around*|{|g<rprime|'>|}>>.
+    <math|LT<around*|(|g|)>=LT<around*|(|g<rprime|'>|)>\<Rightarrow\>LT<around*|(|G|)>=LT<around*|(|G<rprime|'>|)>\<Rightarrow\>G<rprime|'>>
+    is also minmal basis.
+
+    Now we shall argue for <with|font-series|bold|Uniqueness.> Suppose
+    <math|G,G<rprime|'>> are two reduced <math|G->basis. Being reduced they
+    are minimal and hence <math|LT<around*|(|G|)>=LT<around*|(|G<rprime|'>|)>>.
+    So for <math|g\<in\>G>, there is <math|g<rprime|'>\<in\>G<rprime|'>> such
+    that <math|LT<around*|(|g|)>=LT<around*|(|g<rprime|'>|)>>.
+    <math|g-g<rprime|'>\<in\>I>, so <math|<around*|(|g-g<rprime|'>|)>\<equiv\>0<around*|(|mod
+    G|)>> and also <math|<around*|(|g-g<rprime|'>|)>=0<around*|(|mod
+    G<rprime|'>|)>>. In <math|g-g<rprime|'>> the leading terms of
+    <math|g,g<rprime|'>> cancel each other and another monomial of
+    <math|g,g<rprime|'>> is not divisible by any of the leading terms of
+    <math|G>, so <math|<around*|(|g-g<rprime|'>|)>mod G=0>. Forcing
+    <math|g=g<rprime|'>>.
+  </proof>
+
+  <\note>
+    Reduced Grobner basis is useful for Equality testing of ideals. Given two
+    ideals <math|\<less\>f<rsub|!>,\<ldots\>f<rsub|n>\<gtr\>
+    ,\<less\>g<rsub|1>,\<ldots\>,g<rsub|m>\<gtr\>> are equal iff they have
+    the same Reduced Grobner basis.
+  </note>
+
+  <\definition>
+    Let <math|I=\<less\>f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>> and ideal of
+    <math|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>\<nosymbol\>>.
+    The <math|l<rsup|th>> elimination ideal <math|I<rsub|l>> is defined to be
+    <math|I<rsub|l>=I<big|cap>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>.
+  </definition>
+
+  <\theorem>
+    <dueto|Elmination>Let <math|I\<subset\>\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
+    to be an ideal and let <math|G> be a <math|G->basis for <math|I> w.r.t
+    <math|\<gtr\><rsub|lex>> with <math|x<rsub|1>\<gtr\>\<ldots\>\<gtr\>x<rsub|n>>.
+    Then for every <math|0\<leqslant\>l\<leqslant\>n-1>, the set
+    <math|G<rsub|l>=G<big|cap>\<bbb-F\><around*|[|x<rsub|l+1>,\<ldots\>,x<rsub|n>|]>>
+    is a <math|G->basis for <math|I<rsub|l>>.
+  </theorem>
+
+  <\proof>
+    For any <math|f\<in\>I<rsub|l>>, there is a <math|g\<in\>G<rsub|l>>, such
+    that <math|LT<around*|(|g|)><around*|\||LT<around*|(|f|)>|\<nobracket\>>>.
+    Since <math|I<rsub|l>\<subset\>I>, <math|f\<in\>I>. Now <math|G> is a
+    <math|G->basis for <math|I>, so there is some <math|g\<in\>G>, such that
+    <math|LT<around*|(|g|)><around*|\||LT<around*|(|f|)>|\<nobracket\>>>.
+    Since <math|f\<in\>I<rsub|l>>, <math|LT<around*|(|f|)>> does not depend
+    on \ <math|x<rsub|1>,\<ldots\>,x<rsub|l>>. Also since
+    <math|LT<around*|(|g|)><around*|\||LT<around*|(|f|)>|\<nobracket\>>>,
+    <math|LT<around*|(|g|)>> does not depend on
+    <math|x<rsub|1>,\<ldots\>,x<rsub|l>>. Because <math|\<gtr\><rsub|lex>> is
+    used, the other terms of <math|g> also cannot depend on
+    <math|x<rsub|1>,\<ldots\>,x<rsub|l>>. So <math|g\<in\>G<rsub|l>>.\ 
+  </proof>
+
+  <\note>
+    <with|font-series|bold|Extension Step.>
+    <math|V<around*|(|I|)>=<around*|{|<around*|(|a<rsub|1>,\<ldots\>,a<rsub|n>|)>\<in\>\<bbb-F\><rsup|n>:f<around*|(|a<rsub|1>,\<ldots\>,a<rsub|n>|)>=0,\<forall\>f\<in\>I|}>>
+    then <math|<around*|(|a<rsub|l+1>,\<ldots\>,a<rsub|n>|)>\<in\>V<around*|(|I<rsub|l>|)>>
+    is a partial solution. Suppose <math|I<rsub|l-1>=\<less\>g<rsub|1>,\<ldots\>,g<rsub|s>\<gtr\>>,
+    then we want to solve <math|x<rsub|l>> in the equations,
+    <math|g<rsub|1><around*|(|x<rsub|l>,\<ldots\>,x<rsub|n>|)>=\<ldots\>=g<rsub|s><around*|(|x<rsub|l>,\<ldots\>,x<rsub|n>|)>=0>.
+    Natural approach to solve for <math|x<rsub|l>> in the gcd of the
+    uni-variate polynomials in <math|x<rsub|l>>.
+  </note>
+
+  <\theorem>
+    <dueto|Extension>Let <math|I=\<less\>
+    f<rsub|1>,\<ldots\>,f<rsub|s>\<gtr\>>be an ideal of
+    <math|\<bbb-C\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>> and
+    <math|I<rsub|1>> be its first elimination ideal, for
+    <math|1\<leqslant\>i\<leqslant\>s> let
+    <math|f<rsub|i>=g<rsub|i><around*|(|x<rsub|2>,\<ldots\>,x<rsub|n>|)>x<rsub|1><rsup|N<rsub|i>>+terms
+    in x<rsub|i> having deg \<less\>N<rsub|i>> with <math|g<rsub|i>\<neq\>0>.
+    Suppose we have a partial solution <math|<around*|(|a<rsub|2>,\<ldots\>,a<rsub|n>|)>\<in\>V<around*|(|I<rsub|1>|)>>.
+    If <math|<around*|(|a<rsub|2>,\<ldots\>,a<rsub|n>|)>\<in\>V<around*|(|g<rsub|1>,\<ldots\>,g<rsub|s>|)>>
+    then there is an <math|a\<in\>\<bbb-C\>>, such that
+    <math|<around*|(|a<rsub|1>,\<ldots\>,a<rsub|n>|)>\<in\>V<around*|(|I|)>>.
+    The condition <math|<around*|(|a<rsub|2>,\<ldots\>,a<rsub|n>|)>\<nin\>V<around*|(|g<rsub|1>,\<ldots\>,g<rsub|s>|)>>
+    is equivalent to saying that <math|f<rsub|1>,\<ldots\>,f<rsub|s>> do not
+    simultaniously vanish at <math|<around*|(|a<rsub|2>,\<ldots\>,a<rsub|l>|)>>.
+  </theorem>
+
+  <section|Lattices>
+
+  Major references for this series of lectures are:
+
+  <\enumerate-roman>
+    <item>Lecture notes by Oded Regev.
+
+    <item>Lecture notes by Daniel Micercineio.
+  </enumerate-roman>
+
+  <subsection|Introduction>
+
+  Lattice is a periodic arrangement of points in <math|\<bbb-R\><rsup|n>>. It
+  can be considered geometry of integers.
+
+  <\definition>
+    Given <math|n> linearly independent vectors <math|B=<around*|{|
+    b<rsub|1>,\<ldots\>,b<rsub|n>|}>> in <math|\<bbb-R\><rsup|m>> as a vector
+    space <math|<around*|[|\<bbb-R\><rsup|m>:R|]>> the lattice generated by
+    them is defined as <math|\<cal-L\><around*|(|B|)>=<around*|{|<big|sum>x<rsub|i>b<rsub|i>:x<rsub|i>\<in\>\<bbb-Z\>|}>>.
+    The set <math|B> is called a basis for lattice
+    <math|\<cal-L\><around*|(|B|)>.>
+  </definition>
+
+  <\note>
+    It is easy to note that a lattice is a discrete addtive sub group of
+    <math|\<bbb-R\><rsup|n>>. However not all discrete additive subgroups are
+    lattices. Lattices are not dense.
+  </note>
+
+  <\note>
+    In the above definition if <math|m=n> then the lattice is called full
+    rank lattice.
+  </note>
+
+  <\definition>
+    <dueto|Span><math|Span<around*|(|\<cal-L\><around*|(|B|)>|)>=<around*|{|B
+    y:y\<in\>\<bbb-R\><rsup|n>|}>> is a subspace of <math|\<bbb-R\><rsup|n>>.
+  </definition>
+
+  <\definition>
+    <dueto|Fundamental Parallopiped><math|\<cal-P\><around*|(|B|)>=<around*|{|B
+    x:x\<in\>\<bbb-R\><rsup|n>,0\<leqslant\>x<rsub|i>\<less\>1|}>> is called
+    fundamental parallopiped.
+  </definition>
+
+  <\lemma>
+    Let <math|\<Delta\>> be a lattice of rank <math|n> and let
+    <math|B=<around*|{|b<rsub|1>,\<ldots\>,b<rsub|n>|}>\<in\>\<Delta\>> be
+    linearly independent, then <math|b<rsub|1>,\<ldots\>,b<rsub|n>> is a
+    basis <math|\<Leftrightarrow\>> <math|\<cal-P\><around*|(|B|)><big|cap>\<Delta\>=<around*|{|0|}>>.
+  </lemma>
+
+  <\proof>
+    Suppose <math|b<rsub|1>,\<ldots\>,b<rsub|n>\<in\>\<Delta\>> is a basis,
+    consider <math|<big|sum>x<rsub|i>b<rsub|i>\<in\>\<cal-P\><around*|(|B|)>>
+    so that <math|0\<leqslant\>x<rsub|i>\<less\>1>. If
+    <math|y\<in\>\<Delta\>>, then <math|y> is an integer combination of
+    <math|b<rsub|1>,\<ldots\>,b<rsub|n>> i.e.
+    <math|y=<big|sum>y<rsub|i>b<rsub|i>>. Then
+    <math|<big|sum>x<rsub|i>b<rsub|i>=<big|sum>y<rsub|i>b<rsub|i>\<Rightarrow\><big|sum><around*|(|x<rsub|i>-y<rsub|i>|)>b<rsub|i>=0\<Rightarrow\>x<rsub|i>=y<rsub|i>>.
+
+    Arguing the other way, suppose <math|\<cal-P\><around*|(|B|)><big|cap>\<Delta\>=<around*|{|0|}>>.
+    Suppose, <math|B x\<in\>\<Delta\>> for some
+    <math|x\<in\>\<bbb-R\><rsup|n>>, we have to argue that <math|x> is a
+    vector of integers, consider <math|<around*|\<lfloor\>|x|\<rfloor\>>=<around*|(|<around*|\<lfloor\>|x<rsub|1>|\<rfloor\>>,\<ldots\>,<around*|\<lfloor\>|x<rsub|n>|\<rfloor\>>|)>>
+    then <math|B<around*|(|<around*|\<lfloor\>|x|\<rfloor\>>|)>\<in\>\<Delta\>>,
+    but then also <math|B<around*|(|x-<around*|\<lfloor\>|x|\<rfloor\>>|)>\<in\>\<Delta\>>
+    which is a contradiction.
+  </proof>
+
+  <\definition>
+    An <math|n\<times\>n> matrix <math|U> with integer entries is said to be
+    unimodular if <math|det<around*|(|U|)>=\<pm\>1>.
+  </definition>
+
+  <\lemma>
+    Two basis <math|B<rsub|1>,B<rsub|2>> for a given lattice are equivalent
+    <math|\<Leftrightarrow\>> <math|B<rsub|2>=B<rsub|1>U> for some unimodular
+    matrix <math|U.>
+  </lemma>
+
+  <\lemma>
+    A matrix is unimodular <math|\<Leftrightarrow\>> it is a product of
+    sequence of elementary column matrices.
+  </lemma>
+
+  <\lemma>
+    Two bases are equivalent <math|\<Leftrightarrow\>> one can be obtained
+    from the other using sequence of elementary column operations.
+  </lemma>
+
+  <\definition>
+    Let <math|\<Delta\>=\<cal-L\><around*|(|B|)>> be a lattice of rank
+    <math|n>. Then <math|det<around*|(|\<Delta\>|)>> is the volume of
+    <math|\<cal-P\><around*|(|B|)>> ie.e <math|det<around*|(|\<Delta\>|)>=<sqrt|<around*|(|det<around*|(|B<rsup|T>
+    B|)>|)>>\<nosymbol\>>. If <math|\<Delta\>> is a full rank then
+    <math|det<around*|(|\<Delta\>|)>=<around*|\||det<around*|(|B|)>|\|>>.
+  </definition>
+
+  <\proposition>
+    <math|det<around*|(|\<Delta\>|)>> is independent of basis.
+  </proposition>
+
+  <\note>
+    <math|det<around*|(|\<Delta\>|)>> is inversely proporitional to the
+    density of the lattice. If one takes a large ball <math|K>, then the
+    number of lattice points in <math|K> approxmately
+    <math|<frac|Vol<around*|(|K|)>|det<around*|(|\<Delta\>|)>>>.
+  </note>
+
+  <subsection|Some Important problems in Lattices>
+
+  \;
+
+  <with|font-series|bold|Shortest Vector Problem.> Given basis <math|B> of a
+  lattice, find a vector of shortest possible length in
+  <math|\<cal-L\><around*|(|B|)>>.
+
+  <with|font-series|bold|Closest Vector Problem.> Given a basis <math|B> and
+  a vector <math|y\<in\>\<bbb-R\><rsup|n>>, find
+  <math|x\<in\>\<cal-L\><around*|(|B|)>> s.t.
+  <math|d<around*|(|x,y|)>=<around*|\<\|\|\>|x-y|\<\|\|\>>> is the minimum
+  possible.
+
+  \;
+
+  <with|font-series|bold|Successive Minima.> For <math|i\<geqslant\>1>,
+  <math|\<lambda\><rsub|i><around*|(|\<Delta\>|)>=inf<around*|{|r<around*|\||
+  B<around*|(|0,r|)>|\<nobracket\>> contains atleast i linearly
+  ind\<nosymbol\>.vectors|}>>
+
+  \;
+
+  <\theorem>
+    Let <math|B> be basis of a rank <math|n> lattice and <math|B<rprime|'>
+    =<around*|{|b<rsub|i><rprime|'>|}>> be its Gram schmidt
+    orthogonalization. Then <math|\<lambda\><rsub|1><around*|(|B|)>\<geqslant\>min<rsub|1\<leqslant\>i\<leqslant\>n><around*|(|<around*|\<\|\|\>|b<rsub|i><rprime|'>|\<\|\|\>>|)>\<gtr\>0>.
+  </theorem>
+
+  <\proof>
+    Let <math|x\<in\>\<bbb-Z\><rsup|n>>, we show <math|<around*|\<\|\|\>|B
+    x|\<\|\|\>>\<geqslant\>min<around*|(|<around*|\<\|\|\>|b<rsub|i><rprime|'>|\<\|\|\>>|)>\<gtr\>0>.
+
+    Let <math|j> be largest s.t. <math|x<rsub|j>\<neq\>0>.
+
+    <math|<around*|\||\<less\>B x,b<rsub|j><rprime|'>\<gtr\>|\|>=<around*|\||\<less\><big|sum>x<rsub|i>b<rsub|i>,b<rsub|j><rprime|'>|\|>=<around*|\||x<rsub|i>|\|><around*|\<\|\|\>|b<rsub|j><rprime|'>|\<\|\|\>><rsup|2>>
+    (1)
+
+    By Cauchy schwartz inequality we have <math|<around*|\||\<less\>B
+    x,b<rsub|j><rprime|'>\<gtr\>|\|>\<leqslant\><around*|\<\|\|\>|B
+    x|\<\|\|\>><around|\<interleave\>|b<rsub|j><rprime|'>|\<interleave\>>>.
+    (2)
+
+    From both the above we have: <math|<around*|\<\|\|\>|B
+    x|\<\|\|\>>\<geqslant\><around*|\||x<rsub|j>|\|><around*|\<\|\|\>|b<rsub|j><rprime|'>|\<\|\|\>>\<geqslant\><around*|\<\|\|\>|b<rsub|j><rprime|'>|\<\|\|\>>\<gtr\>min<around*|(|<around*|{|<around*|\<\|\|\>|b<rsub|j>|\<\|\|\>>|}>|)>>.
+  </proof>
+
+  <\theorem>
+    Let <math|\<Delta\>> be a lttice. Then there is some
+    <math|\<varepsilon\>\<gtr\>0> such that for any unequal
+    <math|z<rsub|1>,z<rsub|2>\<in\>\<Delta\>>
+    <math|<around*|\<\|\|\>|z<rsub|1>-z<rsub|2>|\<\|\|\>>\<geqslant\>\<varepsilon\>>.
+  </theorem>
+
+  <\corollary>
+    Successive minima are achieved.
+  </corollary>
+
+  <subsection|Minkowski's Theorems>
+
+  <\theorem>
+    <dueto|Blitchfeldt>For any full rank lattice <math|\<Delta\>> and
+    measurable set <math|S\<subset\>\<bbb-R\><rsup|n>> with
+    <math|Vol<around*|(|S|)>\<gtr\>det<around*|(|\<Delta\>|)>,> there exists
+    two points <math|z<rsub|1>,z<rsub|2>\<in\>S> such that
+    <math|z<rsub|1>\<neq\>z<rsub|2>> and <math|z<rsub|1>-z<rsub|2>\<in\>\<Delta\>>.
+  </theorem>
+
+  <\proof>
+    Define <math|S<rsub|x>=S<big|cap><around*|(|x+\<cal-P\><around*|(|\<Delta\>|)>|)>>.
+    <math|<big|sum><rsub|x>Vol<around*|(|S<rsub|x>|)>=Vol<around*|(|S|)>>.
+
+    We define <math|S<rsub|x><rprime|'>=S<rsub|x>-<around*|{|x|}>\<subset\>\<cal-P\><around*|(|\<Delta\>|)>>.
+    Then we have <math|<big|sum><rsub|x>Vol<around*|(|S<rsub|x><rprime|'>|)>=<big|sum><rsub|x>Vol<around*|(|S<rsub|x>|)>\<gtr\>det<around*|(|\<Delta\>|)>=Vol<around*|(|\<cal-P\><around*|(|\<Delta\>|)>|)>>.
+
+    So, there has to be <math|x\<neq\>y> such that
+    <math|S<rsub|x><rprime|'><big|cap>S<rsub|y><rprime|'>\<neq\>\<phi\>> and
+    <math|x,y\<in\>\<Delta\>>, let <math|z\<in\>S<rsub|x><rprime|'><big|cap>S<rsub|y><rprime|'>>.
+    So, there are <math|w<rsub|1>,w<rsub|2>> such that
+    <math|w<rsub|1>\<in\>S<rsub|x>> and <math|w<rsub|2>\<in\>S<rsub|y>> and
+    <math|z=w<rsub|1>-x> and <math|z=w<rsub|2>-y>. So
+    <math|w<rsub|1>,w<rsub|2>\<in\>S>, <math|w<rsub|1>-x=w<rsub|2>-y>
+
+    <math|\<Rightarrow\>w<rsub|1>-w<rsub|2>=x-y\<in\>\<Delta\>>.
+  </proof>
+
+  <\theorem>
+    <dueto|Minkowski's Convex Body Theorem>Let <math|\<Delta\>> be a full
+    rank lattice of rank <math|n>. Then for any centrally symmetric convex
+    sets <math|S>, if <math|Vol<around*|(|S|)>\<gtr\>2<rsup|n>det<around*|(|\<Delta\>|)>,>then
+    <math|S> contains a non-zero lattice point.
+  </theorem>
+
+  <\proof>
+    Define <math|<wide|S|^>=<frac|S|2>=<around*|{|x: 2x\<in\>S|}>>. Then
+    <math|Vol<around*|(|<wide|S|^>|)>=2<rsup|-n>Vol<around*|(|S|)>\<gtr\>det<around*|(|\<Delta\>|)>>.
+    So, there are <math|z<rsub|1>,z<rsub|2>\<in\><wide|S|^>,z<rsub|1>\<neq\>z<rsub|2>>
+    s.t <math|z<rsub|1>-z<rsub|2>\<in\>\<Delta\>><math|\<Rightarrow\>2z<rsub|1>,2z<rsub|2>\<in\>S>
+    and <math|-2z<rsub|2>\<in\>S> and <math|2z<rsub|1>-2z<rsub|2>\<in\>S>.
+    Choose <math|\<lambda\>=<frac|1|2>> so by convexity of <math|S>,
+    <math|z<rsub|1>-z<rsub|2>\<in\>S>.
+  </proof>
+
+  <\proposition>
+    The volume of an <math|n->dimensional ball of radius <math|r> is atmost
+    <math|<around*|(|<frac|2 r|<sqrt|n>>|)><rsup|n>>.
+  </proposition>
+
+  <\proof>
+    <math|B<around*|(|0,r|)>> contains a cube of side
+    <math|<around*|(|<frac|2 r|<sqrt|n>>|)>>.
+  </proof>
+
+  <\theorem>
+    <dueto|Minkowski's First Theorem>For any full rank lattice
+    <math|\<Delta\>> of rank <math|n>, <math|\<lambda\><rsub|1><around*|(|\<Delta\>|)>\<leqslant\><sqrt|n><around*|(|det<around*|(|\<Delta\>|)>|)><rsup|<frac|1|n>>>.
+  </theorem>
+
+  <\proof>
+    By defn. of open ball <math|B<around*|(|0,\<lambda\><rsub|1>|)>> does not
+    contain any non-zero lattice point. So
+    <math|<around*|(|<frac|2\<lambda\><rsub|1>|<sqrt|n>>|)><rsup|n>\<leqslant\>Vol<around*|(|B<around*|(|0,\<lambda\><rsub|1>|)>|)>\<leqslant\>2<rsup|n
+    >det<around*|(|\<Delta\>|)>>. Hence the result follows.
+  </proof>
+
+  <\theorem>
+    <dueto|Minkowski's Second Theorem>For any full rank lattice
+    <math|\<Delta\>> of rank <math|n> we have
+    <math|<around*|(|<big|prod><rsub|i=1><rsup|n>\<lambda\><rsub|i><around*|(|\<Delta\>|)>|)><rsup|<frac|1|n>>\<leqslant\><sqrt|n><around*|(|det<around*|(|\<Delta\>|)>|)><rsup|<frac|1|n>>>.
+  </theorem>
+
+  <\proof>
+    Let <math|x<rsub|1>,\<ldots\>,x<rsub|n>\<in\>\<Delta\>> be linearly
+    independent vectors achieving successive minima, i.e.
+    <math|<around*|\<\|\|\>|x<rsub|i>|\<\|\|\>>=\<lambda\><rsub|i>>. Let
+    <math|x<rprime|'><rsub|1>,\<ldots\>,x<rprime|'><rsub|n>> be their Gram
+    Schmidt Orthogonalization. Consider the open ellipsoid <math|T>, with
+    axes <math|x<rsub|1><rprime|'>,\<ldots\>,x<rsub|n><rprime|'>> and lengths
+    <math|\<lambda\><rsub|1>,\<ldots\>,\<lambda\><rsub|n>> \ and
+    <math|T=<around*|{|y\<in\>\<bbb-R\><rsup|n>:<big|sum><rsub|i=1><rsup|n><around*|(|<frac|\<less\>y,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i><rprime|'>|\<\|\|\>>\<lambda\><rsub|i>>|)><rsup|2>\<less\>1|}>>.
+    \ Expressing <math|y> in terms of <math|x<rsub|i><rprime|'>> as
+    <math|<big|sum>r<rsub|i>x<rsub|i><rprime|'>>. Then
+    <math|<around*|(|<frac|\<less\>y<rsub|i>,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i><rprime|'>|\<\|\|\>>\<lambda\><rsub|i>>|)><rsup|2>=<around*|(|<frac|\<less\><big|sum>y<rsub|i>x<rsub|i><rprime|'>,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i><rprime|'>|\<\|\|\>>\<lambda\><rsub|i>>|)><rsup|2>=<around*|(|<frac|y<rsub|i><around*|\<\|\|\>|x<rsub|i>|\<\|\|\>><rsup|2>|<around*|\<\|\|\>|x<rsub|i>|\<\|\|\>>\<lambda\><rsub|i>>|)><rsup|2>=<frac|y<rsub|i><rsup|2>|\<lambda\><rsub|i><rsup|2>><around*|\<\|\|\>|x<rsub|i><rprime|'>|\<\|\|\>><rsup|2>>.\ 
+
+    So <math|Vol<around*|(|T|)>=<around*|(|<big|prod><rsub|i=1><rsup|n>\<lambda\><rsub|i>|)>Vol<around*|(|B<around*|(|0,1|)>|)>\<geqslant\><big|prod><rsub|i=1><rsup|n>\<lambda\><rsub|i><around*|(|<frac|2|<sqrt|n>>|)><rsup|n>>.
+
+    We claim that <math|T> does not contain non-zero lattice point if
+    <math|0\<neq\>y\<in\>\<Delta\>>, Let <math|K> be maxmimal s.t.
+    <math|<around*|\<\|\|\>|y|\<\|\|\>>\<gtr\>\<lambda\><rsub|k>> and
+    <math|<around*|\<\|\|\>|y|\<\|\|\>>\<less\>\<lambda\><rsub|k+1>>. We have
+    <math|Span<around*|(|x<rsub|1>,\<ldots\>,x<rsub|k>|)>=Span<around*|(|x<rsub|1><rprime|'>,\<ldots\>,x<rsub|k><rprime|'>|)>>,
+    <math|y\<in\>Span<around*|(|x<rsub|1>,\<ldots\>,x<rsub|k>|)>> as
+    otherwise <math|x<rsub|1>,\<ldots\>,x<rsub|k>,y> are <math|k+1> linearly
+    independent vectors of length <math|\<less\> \<lambda\><rsub|k+1>>, which
+    violates the definition of <math|\<lambda\><rsub|k+1>>. So
+    <math|y\<in\>Span<around*|(|x<rsub|1><rprime|'>,\<ldots\>,x<rsub|k><rprime|'>|)>>.
+
+    Consider <math|<big|sum><rsub|i=1><rsup|n><around*|(|<frac|\<less\>y,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i>|\<\|\|\>>\<lambda\><rsub|i>>|)><rsup|2>=<big|sum><rsub|i=1><rsup|k><around*|(|<frac|\<less\>y,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i>|\<\|\|\>>\<lambda\><rsub|i>>|)>\<geqslant\><frac|1|\<lambda\><rsub|k><rsup|2>><big|sum><rsub|i><rsup|k><around*|(|<frac|\<less\>y,x<rsub|i><rprime|'>\<gtr\>|<around*|\<\|\|\>|x<rsub|i>|\<\|\|\>>>|)><rsup|2>=<around*|\<\|\|\>|y|\<\|\|\>><rsup|2>>.
+
+    So, <math|Vol<around*|(|T|)>=<big|prod>\<lambda\><rsub|i>
+    Vol<around*|(|B<around*|(|0,1|)>|)>\<geqslant\><big|prod>\<lambda\><rsub|i><around*|(|<frac|2|<sqrt|n>>|)><rsup|n>>.
+    Hence, it follows that <math|Vol<around*|(|T|)>\<leqslant\>2<rsup|n>det<around*|(|\<Delta\>|)>>.
+  </proof>
+
+  <subsection|Dual Lattices>
+
+  <\definition>
+    <math|\<Delta\>> be a full rank lattice. Dual of this lattice denoted by
+    <math|\<Delta\><rsup|\<ast\>>> is defined as the set
+    <math|<around*|{|y\<in\>\<bbb-R\><rsup|n>:\<less\>x,y\<gtr\>\<in\>\<bbb-Z\>,\<forall\>x\<in\>\<Delta\>|}>>.
+  </definition>
+
+  <\note>
+    for a non full rank lattice <math|\<Delta\>> we define
+    <math|\<Delta\><rsup|\<ast\>>=<around*|{|y\<in\>Span<around*|(|\<Delta\>|)>:\<less\>x,y\<gtr\>\<in\>\<bbb-Z\>,\<forall\>x\<in\>\<Delta\>|}>>.
+  </note>
+
+  Fix an <math|x\<in\>\<Delta\>>, say <math|x=<around*|(|x<rsub|1>,\<ldots\>,x<rsub|n>|)>>.
+  then the points in the dual satisfy <math|<big|sum>y<rsub|i>x<rsub|i>\<in\>\<bbb-Z\>>.
+  So we have sheets of hyperplanes paraterized on the integers. Each of these
+  hyperplanes are separated by a distance of
+  <math|<frac|1|<around*|\<\|\|\>|x|\<\|\|\>>>.>
+
+  \;
+
+  <\definition>
+    Let <math|B<rsub|m\<times\>n>> be a basis, dual basis
+    <math|D=<around*|(|d<rsub|1>,\<ldots\>,d<rsub|n>|)>> is defined as the
+    unique basis such that :
+
+    <\enumerate-roman>
+      <item><math|Span<around*|(|D|)>=Span<around*|(|B|)>>
+
+      <item><math|B<rsup|T>D=I<rsub|n>>
+    </enumerate-roman>
+  </definition>
+
+  <\note>
+    If <math|m=n> we have <math|D=<around*|(|B<rsup|T>|)><rsup|-1>> and if
+    <math|n\<less\>m> then <math|D=B<around*|(|B<rsup|T>B|)><rsup|-1>>.
+  </note>
+
+  <\proposition>
+    If <math|D> is a dual basis of <math|B>, then
+    <math|\<cal-L\><around*|(|B|)><rsup|\<ast\>>=\<cal-L\><around*|(|D|)>>.
+    In particular <math|\<cal-L\><around*|(|B|)><rsup|\<ast\>>> is a lattice
+    and <math|D> is a basis for it.
+  </proposition>
+
+  <\proof>
+    Claim: <math|\<cal-L\><around*|(|B|)><rsup|\<ast\>>\<subset\>\<cal-L\><around*|(|D|)>>.
+    Let <math|y\<in\>\<cal-L\><around*|(|B|)><rsup|\<ast\>>>.\ 
+
+    So, <math|y\<in\>Span<around*|(|B|)>=Span<around*|(|D|)>>.
+    <math|y=<big|sum>a<rsub|i>d<rsub|i>> for <math|a<rsub|i>\<in\>\<bbb-R\>>.
+    Now <math|\<less\>y,b<rsub|i>\<gtr\>\<in\>\<bbb-Z\>>.
+
+    So <math|\<less\><big|sum>a<rsub|i>d<rsub|i>,b<rsub|j>\<gtr\> =
+    a<rsub|j>\<in\>\<bbb-Z\>\<Rightarrow\>y\<in\>\<cal-L\><around*|(|D|)>>.
+
+    Arguing the otherway, Claim: <math|\<cal-L\><around*|(|D|)>\<subset\>\<cal-L\><around*|(|B|)><rsup|\<ast\>>>
+
+    Consider <math|d<rsub|j>\<in\>D>. Let
+    <math|x\<in\>\<cal-L\><around*|(|B|)>>, so
+    <math|x=<big|sum>a<rsub|i>b<rsub|j>>. Then
+    <math|\<less\>d<rsub|j>,<big|sum>a<rsub|i>b<rsub|i>\<gtr\>=a<rsub|j>\<in\>\<bbb-Z\>\<Rightarrow\>d<rsub|j>\<in\>\<cal-L\><around*|(|B|)>>.
+    With <math|a<rsub|i>\<in\>\<bbb-Z\>\<Rightarrow\>D\<subset\>\<cal-L\><around*|(|B|)><rsup|\<ast\>>>.
+    Since <math|\<cal-L\><around*|(|B|)><rsup|\<ast\>>> is closed under
+    addition, any integer combination of elements of <math|D> is also in
+    <math|\<cal-L\><around*|(|B|)><rsup|\<ast\>>\<Rightarrow\>\<cal-L\><around*|(|D|)>\<subset\>\<cal-L\><around*|(|B|)><rsup|\<ast\>>>.
+  </proof>
+
+  <\lemma>
+    For any lattice <math|\<Delta\>>, we have
+    <math|<around*|(|\<Delta\><rsup|\<ast\>>|)><rsup|\<ast\>>=\<Delta\>>.
+  </lemma>
+
+  <\lemma>
+    <math|det<around*|(|\<Delta\><rsup|\<ast\>>|)>=<frac|1|det<around*|(|\<Delta\>|)>>>
+  </lemma>
+
+  <\note>
+    Because of above lemma dual lattice is sometimes called reciprocal
+    lattice.
+  </note>
+
+  <\lemma>
+    For any rank <math|n> lattice, <math|\<lambda\><rsub|1><around*|(|\<Delta\>|)>=\<lambda\><rsub|2><around*|(|\<Delta\><rsup|\<ast\>>|)>\<leqslant\>n>.
+  </lemma>
+
+  <\lemma>
+    For any rank <math|n> lattice <math|\<Delta\>>,
+    <math|\<lambda\><rsub|1><around*|(|\<Delta\>|)>=\<lambda\><rsub|1><around*|(|\<Delta\><rsup|\<ast\>>|)>\<geqslant\>1>
+  </lemma>
+
+  \;
+
+  \;
+
+  \;
+
+  \;
+
   \;
 
   \;
@@ -1750,7 +2645,15 @@
     <associate|auto-25|<tuple|10|16>>
     <associate|auto-26|<tuple|10.1|16>>
     <associate|auto-27|<tuple|10.2|17>>
+    <associate|auto-28|<tuple|10.3|17>>
+    <associate|auto-29|<tuple|10.4|19>>
     <associate|auto-3|<tuple|1.2|2>>
+    <associate|auto-30|<tuple|10.4.1|19>>
+    <associate|auto-31|<tuple|11|21>>
+    <associate|auto-32|<tuple|11.1|21>>
+    <associate|auto-33|<tuple|11.2|22>>
+    <associate|auto-34|<tuple|11.3|22>>
+    <associate|auto-35|<tuple|11.4|23>>
     <associate|auto-4|<tuple|1.3|2>>
     <associate|auto-5|<tuple|2|3>>
     <associate|auto-6|<tuple|2.1|3>>
@@ -1769,15 +2672,15 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|1.1<space|2spc>Overview
+      <with|par-left|<quote|1.5fn>|1.1<space|2spc>Overview
       \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
-      <with|par-left|<quote|1tab>|1.2<space|2spc>References
+      <with|par-left|<quote|1.5fn>|1.2<space|2spc>References
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <with|par-left|<quote|1tab>|1.3<space|2spc>Evaluation
+      <with|par-left|<quote|1.5fn>|1.3<space|2spc>Evaluation
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-4>>
 
@@ -1785,7 +2688,7 @@
       Canonical Form> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|2.1<space|2spc>Sweep-out Method
+      <with|par-left|<quote|1.5fn>|2.1<space|2spc>Sweep-out Method
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6>>
 
@@ -1794,17 +2697,17 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-7><vspace|0.5fn>
 
-      <with|par-left|<quote|2tab>|3.0.1<space|2spc>Efficient Methods for
+      <with|par-left|<quote|3fn>|3.0.1<space|2spc>Efficient Methods for
       Multiplying Matrices and Polynomials
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-8>>
 
-      <with|par-left|<quote|2tab>|3.0.2<space|2spc>Matrix Multiplication
+      <with|par-left|<quote|3fn>|3.0.2<space|2spc>Matrix Multiplication
       <with|mode|<quote|math>|\<Leftrightarrow\>> Matrix Inversion
       \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-9>>
 
-      <with|par-left|<quote|2tab>|3.0.3<space|2spc>Computing matrix
+      <with|par-left|<quote|3fn>|3.0.3<space|2spc>Computing matrix
       determinant. <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-10>>
 
@@ -1820,12 +2723,12 @@
       Fourier Transform> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-13><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|6.1<space|2spc>Bit-Complexity of Fast
+      <with|par-left|<quote|1.5fn>|6.1<space|2spc>Bit-Complexity of Fast
       Fourier Transform <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-14>>
 
-      <with|par-left|<quote|1tab>|6.2<space|2spc>Schonhage-Strassen algorithm
-      \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1.5fn>|6.2<space|2spc>Schonhage-Strassen
+      algorithm \ <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-15>>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|7<space|2spc>Computational
@@ -1837,11 +2740,11 @@
       Common Divisor> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|8.1<space|2spc>Euclidean GCD Algorithm
+      <with|par-left|<quote|1.5fn>|8.1<space|2spc>Euclidean GCD Algorithm
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18>>
 
-      <with|par-left|<quote|1tab>|8.2<space|2spc>Half-GCD Algorithm
+      <with|par-left|<quote|1.5fn>|8.2<space|2spc>Half-GCD Algorithm
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19>>
 
@@ -1849,20 +2752,20 @@
       Factoring> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|9.1<space|2spc>Berlekamp's Method
+      <with|par-left|<quote|1.5fn>|9.1<space|2spc>Berlekamp's Method
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21>>
 
-      <with|par-left|<quote|1tab>|9.2<space|2spc>Cantor-Zassenhaus randomized
-      algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|1.5fn>|9.2<space|2spc>Cantor-Zassenhaus
+      randomized algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-22>>
 
-      <with|par-left|<quote|1tab>|9.3<space|2spc>Factorization over
+      <with|par-left|<quote|1.5fn>|9.3<space|2spc>Factorization over
       <with|mode|<quote|math>|\<bbb-Z\><around*|[|x|]>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-23>>
 
-      <with|par-left|<quote|2tab>|9.3.1<space|2spc>Hensel Lifting
+      <with|par-left|<quote|3fn>|9.3.1<space|2spc>Hensel Lifting
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-24>>
 
@@ -1870,14 +2773,46 @@
       and Varieties> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-25><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|10.1<space|2spc>Multivariate Polynomials
+      <with|par-left|<quote|1.5fn>|10.1<space|2spc>Multivariate Polynomials
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-26>>
 
-      <with|par-left|<quote|1tab>|10.2<space|2spc>Division algorithm in
+      <with|par-left|<quote|1.5fn>|10.2<space|2spc>Division algorithm in
       <with|mode|<quote|math>|\<bbb-F\><around*|[|x<rsub|1>,\<ldots\>,x<rsub|n>|]>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-27>>
+
+      <with|par-left|<quote|1.5fn>|10.3<space|2spc>Hilbert's Nullstellensatz
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-28>>
+
+      <with|par-left|<quote|1.5fn>|10.4<space|2spc>Grobner Basis
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-29>>
+
+      <with|par-left|<quote|3fn>|10.4.1<space|2spc>Properties of Grobner
+      Basis <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-30>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|11<space|2spc>Lattices>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-31><vspace|0.5fn>
+
+      <with|par-left|<quote|1.5fn>|11.1<space|2spc>Introduction
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-32>>
+
+      <with|par-left|<quote|1.5fn>|11.2<space|2spc>Some Important problems in
+      Lattices <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-33>>
+
+      <with|par-left|<quote|1.5fn>|11.3<space|2spc>Minkowski's Theorems
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-34>>
+
+      <with|par-left|<quote|1.5fn>|11.4<space|2spc>Dual Lattices
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-35>>
     </associate>
   </collection>
 </auxiliary>
