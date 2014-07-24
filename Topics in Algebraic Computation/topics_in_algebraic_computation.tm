@@ -2685,6 +2685,20 @@
 
   <\proof>
     \;
+
+    a) <math|det<around*|(|B|)><rsup|2>=det<around*|(|B<rprime|'>|)><rsup|2>=det<around*|(|B<rprime|'>|)>det<around*|(|B<rprime|'><rsup|T>|)>=det<around*|(|B
+    B<rprime|'><rsup|T>|)>=diag <around*|[|<around*|\<\|\|\>|b<rsub|1><rprime|'>|\<\|\|\>><rsup|2>,\<ldots\>,<around*|\<\|\|\>|b<rsub|n><rprime|'>|\<\|\|\>><rsup|2>|]>=<big|prod><rsub|i=1><rsup|n><around*|\||b<rsub|i><rprime|'>|\|><rsup|2>\<leqslant\><big|prod><around*|\||b<rsub|i>|\|><rsup|2>>.
+    (Because we have <math|<around*|\||b<rsub|i>|\|><rsup|2>=<around*|\||b<rsub|i><rprime|'>|\|><rsup|2>+<big|sum><rsub|1\<leqslant\>i\<leqslant\>j><around*|(|\<mu\><rsub|i
+    j><rsup|2><around*|\<\|\|\>|b<rsub|j><rprime|'>|\<\|\|\>><rsup|2>|)>>.
+
+    Since the <math|b<rsub|i>> are <math|L<rsup|3>->reduced
+    <math|\<less\>b<rsub|i><rprime|'>,b<rsub|i><rprime|'>\<gtr\> \<geqslant\>
+    <around*|(|<frac|3|4>-\<mu\><rsub|i i-1><rsup|2>|)>\<less\>b<rprime|'><rsub|i-1>,b<rsub|i-1><rprime|'>\<gtr\>
+    \<geqslant\> <frac|<around*|\<\|\|\>|b<rsub|i-1><rprime|'>|\<\|\|\>><rsup|2>|2>>.\ 
+
+    So we have <math|<around*|\||b<rsub|i><rprime|'>|\|><rsup|2>\<leqslant\>2<rsup|i-j><around*|\||b<rsub|i>|\|><rsup|2>>.
+
+    \;
   </proof>
 
   <hrule>
@@ -2754,11 +2768,11 @@
     <associate|auto-34|<tuple|11.3|22>>
     <associate|auto-35|<tuple|11.4|23>>
     <associate|auto-36|<tuple|11.5|24>>
-    <associate|auto-37|<tuple|11.6|?>>
-    <associate|auto-38|<tuple|11.7|?>>
-    <associate|auto-39|<tuple|11.8|?>>
+    <associate|auto-37|<tuple|11.6|25>>
+    <associate|auto-38|<tuple|11.7|25>>
+    <associate|auto-39|<tuple|11.8|25>>
     <associate|auto-4|<tuple|1.3|2>>
-    <associate|auto-40|<tuple|12|?>>
+    <associate|auto-40|<tuple|12|25>>
     <associate|auto-5|<tuple|2|3>>
     <associate|auto-6|<tuple|2.1|3>>
     <associate|auto-7|<tuple|3|6>>
@@ -2921,6 +2935,22 @@
       <with|par-left|<quote|1.5fn>|11.5<space|2spc>LLL - Lenstra Lovasz
       Algorithm <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-36>>
+
+      <with|par-left|<quote|1.5fn>|11.6<space|2spc>Nearest Plane Algorithm
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-37>>
+
+      <with|par-left|<quote|1.5fn>|11.7<space|2spc>Some applications of
+      Lattices to Cryptography <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-38>>
+
+      <with|par-left|<quote|1.5fn>|11.8<space|2spc>Some complexity theoretic
+      aspects of CVP and SVP <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-39>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|12<space|2spc>Odds
+      and Ends> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-40><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
