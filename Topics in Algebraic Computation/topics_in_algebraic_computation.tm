@@ -154,6 +154,30 @@
     <with|par-left|1.5fn|11.4<space|2spc>Dual Lattices
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-35>>
+
+    <with|par-left|1.5fn|11.5<space|2spc>LLL - Lenstra Lovasz Algorithm
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-36>>
+
+    <with|par-left|1.5fn|11.6<space|2spc>Nearest Plane Algorithm
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-37>>
+
+    <with|par-left|1.5fn|11.7<space|2spc>Some applications of Lattices to
+    Cryptography <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-38>>
+
+    <with|par-left|1.5fn|11.8<space|2spc>Some complexity theoretic aspects of
+    CVP and SVP <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-39>>
+
+    <with|par-left|1.5fn|11.9<space|2spc>Odds and Ends - Some applications of
+    Lattices <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-40>>
+
+    <with|par-left|3fn|11.9.1<space|2spc>Hermite Canonical Form
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-41>>
   </table-of-contents>
 
   <new-page>
@@ -1582,7 +1606,7 @@
   In this section essentially we will be studying Hilbert Basis Theorem,
   Grobner Basis and Buchberger's Algorithm for computing Grobner's
   Basis<\footnote>
-    Grobner is Buchberger's Thesis advisor.
+    Grobner is Buchberger's Thesis advisor..
   </footnote>. \ 
 
   <subsection|Multivariate Polynomials>
@@ -2697,27 +2721,361 @@
     \<geqslant\> <frac|<around*|\<\|\|\>|b<rsub|i-1><rprime|'>|\<\|\|\>><rsup|2>|2>>.\ 
 
     So we have <math|<around*|\||b<rsub|i><rprime|'>|\|><rsup|2>\<leqslant\>2<rsup|i-j><around*|\||b<rsub|i>|\|><rsup|2>>.
+    And <math|<around*|\||b<rsub|i>|\|><rsup|2>=\<less\>b<rsub|i>,b<rsub|i>\<gtr\>
+    = \<less\>b<rsub|i><rprime|'>,b<rsub|i><rprime|'>\<gtr\>+<big|sum><rsub|1\<leqslant\>j\<leqslant\>i>\<mu\><rsub|i
+    j><rsup|2>\<less\>b<rsub|i><rprime|'>,b<rsub|j><rprime|'>\<gtr\>>
+
+    <math|\<leqslant\><around*|\||b<rsub|i>|\|><rsup|2><around*|(|1+<frac|1|4><around*|(|2<rsup|i-1>\<ldots\>|)>|)>=<around*|\||b<rsub|i><rprime|'>|\|><rsup|2><around*|(|<frac|2<rsup|i-1>+1|2>|)>>
 
     \;
+
+    b) <math|<around*|\||b<rsub|j>|\|><rsup|2>\<leqslant\><around*|(|<frac|2<rsup|j-1>+1|2>|)><around*|\||b<rsub|j><rprime|'>|\|><rsup|2>\<leqslant\><around*|(|<frac|2<rsup|j-1>+1|2>|)><around*|\||b<rsub|j><rprime|'>|\|><rsup|2>\<leqslant\><around*|(|<frac|2<rsup|j-1>+1|2>|)>2<rsup|i-j><around*|\||b<rsub|i><rprime|'>|\|><rsup|2>\<leqslant\>2<rsup|i-1><around*|\||b<rsub|i><rprime|'>|\|><rsup|2>>.
+
+    \;
+
+    c)\ 
+
+    d) for every <math|x\<in\>L,x\<neq\>0>
+    <math|<around*|\||b<rsub|i>|\|>\<leqslant\>2<rsup|<frac|n-1|2>><around*|\||x|\|>>.
+    Hence we have <math|<around*|\||b<rsub|1>|\|>\<leqslant\>2<rsup|<frac|n-1|2>>\<lambda\><rsub|1><around*|(|\<Delta\>|)>>.
+    Let <math|x\<in\>\<Delta\>> then <math|x=<big|sum><rsub|1\<leqslant\>j\<less\>i>r<rsub|j>b<rsub|j>>
+    and <math|r<rsub|i>\<neq\>0>. Hence the result.
   </proof>
 
+  \;
+
   <hrule>
 
-  <\named-algorithm|<dueto|<math|L<rsup|3>->Algorithm>>
+  <with|font-base-size|8|<\named-algorithm|<dueto|<math|L<rsup|3>->Algorithm>>
+    <with|font-series|bold|Input:> Given basis
+    <math|<around*|{|b<rsub|1>,\<ldots\>,b<rsub|n>|}>>
+
+    <with|font-series|bold|Output:> <math|L<rsup|3>->reduced basis
+    <math|<around*|{|b<rsub|1>,\<ldots\>,b<rsub|n>|}>>
+
     \;
-  </named-algorithm>
+
+    <\with|font-base-size|8>
+      1. Suppose <math|b<rsub|1>,\<ldots\>,b<rsub|k-1>> is
+      <math|L<rsup|3>->reduced <math|>(initally true for <math|k=2>)
+
+      2. Compute <math|\<mu\><rsub|k k-1>=<frac|\<less\>b<rsub|k>,b<rsub|k-1><rprime|'>\<gtr\>|\<less\>b<rsub|k-1><rprime|'>,b<rsub|k-1><rprime|'>\<gtr\>>>
+
+      3. If <math|<around*|(|<around*|\||\<mu\><rsub|k
+      k-1>|\|>\<gtr\><frac|1|2>|)>>
+
+      <\indent>
+        <\indent>
+          <math|q\<leftarrow\><around*|\<lfloor\>|\<mu\><rsub|k
+          k-1>|\<rfloor\>>>
+
+          <math|b<rsub|k>\<leftarrow\>b<rsub|k>-q b<rsub|k-1>>
+        </indent>
+      </indent>
+
+      4. If <math|<around*|(|<around*|\||b<rprime|'><rsub|k>|\|><rsup|2>\<geqslant\><around*|(|<frac|3|4>-\<mu\><rsub|k
+      k-1><rsup|2>|)><around*|\||b<rsub|k-1>|\|><rsup|2>|)>>
+
+      <\indent>
+        <\indent>
+          for <math|j \<leftarrow\> k-2> to 1
+
+          <\indent>
+            compute <math|\<mu\><rsub|k j>>
+
+            if <math|<around*|(|<around*|\||\<mu\><rsub|k
+            j>|\|>\<gtr\><frac|1|2>|)>>
+
+            <\indent>
+              <math|q\<leftarrow\> <around*|\||\<mu\><rsub|k j>|\|>>
+
+              <math|b<rsub|k>=b<rsub|k>-q b>
+            </indent>
+          </indent>
+        </indent>
+      </indent>
+
+      \ \ \ \ else
+
+      \ \ \ \ \ \ \ \ \ swap <math|b<rsub|k>,b<rsub|k-1>>
+    </with>
+  </named-algorithm>>
 
   <hrule>
+
+  \;
 
   <subsection|Nearest Plane Algorithm>
 
+  \;
+
   <subsection|Some applications of Lattices to Cryptography>
+
+  RSA is used with low public exponent, suppose <math|e=3> and there are 3
+  users whose <math|RSA> modulii are <math|N<rsub|1>,N<rsub|2>,N<rsub|3>>.
+  Suppose a message <math|m> is to be sent to 3 users.\ 
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|y<rsub|1>\<equiv\>m<rsup|3><around*|(|mod
+    N<rsub|1>|)>>|<cell|>|<cell|>>|<row|<cell|y<rsub|2>\<equiv\>m<rsup|3><around*|(|mod
+    N<rsub|2>|)>>|<cell|>|<cell|>>|<row|<cell|y<rsub|3>\<equiv\>m<rsup|3><around*|(|mod
+    N<rsub|3>|)>>|<cell|>|<cell|>>>>
+  </eqnarray*>
+
+  Then Chinese Reminder Theorem gives us the solution for
+  <math|m\<nosymbol\>> uniquely. Hence, it is not secure.
+
+  Suppose <math|g<rsub|1>,\<ldots\>,g<rsub|k>> be polynomials of degree
+  atmost <math|d>, where <math|g<rsub|i>\<in\>\<bbb-Z\><rsub|N<rsub|i>><around*|[|x|]>>.
+  Where <math|N<rsub|1>,\<ldots\>,N<rsub|k>> are different modulli. Suppose
+  there is a unique <math|m>, such that <math|m\<less\>min<around*|{|N<rsub|i>|}>>
+  and <math|g<rsub|i><around*|(|M|)>=C<rsub|i><around*|(|mod N<rsub|i>|)>>.
+  If <math|k\<geqslant\>d>; then given the tuples
+  <math|<around*|(|g<rsub|i>,C<rsub|i>,N<rsub|i>|)><rsub|i=1><rsup|k>>, it is
+  possible to find <math|M>.
+
+  Let <math|h<rsub|i><around*|(|M|)>=g<rsub|i><around*|(|M|)>-c<rsub|i>>.
+  Then <math|h<rsub|i><around*|(|M|)>=0<around*|(|mod N<rsub|i>|)>>. Consider
+  the system of polynomial equations <math|h<rsub|i><around*|(|x|)>=0<around*|(|mod
+  N<rsub|i>|)>>. Using Chinese Reminder Theorem, we get the polynomail
+  <math|h<around*|(|x|)>> such that <math|h<around*|(|x|)>=0 <around*|(|mod
+  N<rsub|1>\<ldots\>N<rsub|k>|)>>. So, we are looking for a root of a
+  polynomial of degree <math|d>. <math|M\<less\>min<around*|(|N<rsub|i>|)>\<leqslant\><around*|(|N<rsub|1>\<ldots\>N<rsub|k>|)><rsup|<frac|1|k>>\<leqslant\><around*|(|N<rsub|1>\<ldots\>N<rsub|k>|)><rsup|<frac|1|d>>>.
+  Let <math|N=N<rsub|1>\<ldots\>N<rsub|k>>. We are looking for a root
+  <math|M> of a polynomial of degree <math|d> to the system
+  <math|h<around*|(|x|)>\<equiv\>0<around*|(|mod N|)>> where
+  <math|M\<less\>N<rsup|<frac|1|d>>>.
+
+  <with|font-series|bold|Coppersmith's idea.>
+  <math|f<around*|(|x|)>\<equiv\>0<around*|(|mod N|)>>. Let
+  <math|f<around*|(|x|)>=x<rsup|d>+a<rsub|d-1>x<rsup|d-1>+\<ldots\>+a<rsub|1>x+a<rsub|0>>.
+  Suppose there is a <math|B> such that <math|<around*|\||a<rsub|i>B<rsup|i>|\|>\<less\><frac|N|d+1>>
+  (*). <math|<around*|\||f<around*|(|B|)>|\|>\<less\>N>. Then a root <math|M>
+  of <math|f<around*|(|x|)>mod M> with <math|M\<less\>B> is a root of
+  <math|f<around*|(|x|)>> over the integers. Finding all the integer roots of
+  <math|f<around*|(|x|)>> will yield <math|M>.
+
+  In general <math|<around*|(|\<ast\>|)>> will not hold. Then comes the
+  crutial idea: is it possible to get polynomial <math|g<around*|(|x|)>>
+  which has all the roots of <math|f<around*|(|x|)>> (and may be more) and
+  <math|\<ast\>> holds for <math|g<around*|(|x|)>>.
+
+  Consider <math|Z<rsub|1>=<around*|{|N,N x,\<ldots\>N
+  x<rsup|d-1>,f<around*|(|x|)>|}>>, any linear combination of polynomials in
+  <math|Z<rsub|1>> will have all the roots of
+  <math|f<around*|(|x|)><around*|(|mod N|)>>. Consider the following matrix
+  <math|B<rsub|1>>.
+
+  <\equation*>
+    B<rsub|1>=<matrix|<tformat|<table|<row|<cell|N>|<cell|0>|<cell|\<ldots\>>|<cell|a<rsub|0>>>|<row|<cell|0>|<cell|B
+    N>|<cell|\<ldots\>>|<cell|B a<rsub|1>>>|<row|<cell|0>|<cell|0>|<cell|>|<cell|\<vdots\>>>|<row|<cell|\<vdots\>>|<cell|\<vdots\>>|<cell|>|<cell|B<rsup|d-1>a<rsub|d-1>>>|<row|<cell|0>|<cell|0>|<cell|>|<cell|B<rsup|d>>>>>>
+  </equation*>
+
+  Then <math|det<around*|(|\<cal-L\><around*|(|B<rsub|1>|)>|)>=N<rsup|d>\<times\>B<rsup|<frac|d<around*|(|d+1|)>|2>>>.
+  Using <math|L<rsup|3>>, we find an integer combination columns of
+  <math|B<rsub|1>> to be a vector <math|v>, such that
+  <math|<around*|\<\|\|\>|v|\<\|\|\>>\<leqslant\>O<around*|(|\<lambda\><rsub|1><around*|(|L<rsub|1>|)>|)>\<leqslant\><around*|(|det<around*|(|L<rsub|1>|)><rsup|<frac|1|d-n>>|)>=O<around*|(|N\<nosymbol\>.<frac|B<rsup|<frac|d|2>>|N<rsup|<frac|1|d+1>>>|)>>.
+
+  If <math|B\<leqslant\>c<rsub|1><around*|(|d|)>N<rsup|<frac|2|d<around*|(|d+1|)>>>>
+  then <math|<around*|\<\|\|\>|v|\<\|\|\>>\<leqslant\><frac|N|d+1>>. Suppose
+  <math|v=<around*|(|v<rsub|0>,\<ldots\>,v<rsub|d+1>|)><rsup|T>> consider the
+  polynomial <math|g<around*|(|x|)>=b<rsub|d>x<rsup|d>+b<rsub|d-1>x<rsup|d-1>+\<ldots\>b<rsub|1>x+b<rsub|0>>.
+  Obtained by integer combination of polynomials in <math|Z<rsub|1>> which
+  correspond to the coodinates of <math|v>. Then
+  <math|<around*|\||b<rsub|1>B<rsup|i>|\|>\<less\><frac|N|d+1>> and then find
+  all the roots of <math|g<around*|(|x|)>> to get roots of
+  <math|f<around*|(|x|)>>. But, <math|B\<less\>c<around*|(|d|)>N<rsup|<frac|2|d<around*|(|d+1|)>>>>
+  is not a good bound, so we try to construct alternate lattice
+  <math|L<rsub|><rprime|'>=<around*|{|N,N x,\<ldots\>,N
+  x<rsup|d-1>|}><big|cup><around*|{|f<around*|(|x|)>\<nocomma\>,x
+  f<around*|(|x|)>,\<ldots\>,x<rsup|d-1>f<around*|(|x|)>|}>>.
+
+  <\equation*>
+    B<rsub|2>=<matrix|<tformat|<table|<row|<cell|B<rsub|1>>|<cell|0>|<cell|>|<cell|0>>|<row|<cell|>|<cell|a<rsub|0>>|<cell|\<ddots\>>|<cell|0>>|<row|<cell|>|<cell|B
+    a<rsub|1>>|<cell|\<ddots\>>|<cell|0>>|<row|<cell|>|<cell|\<vdots\>>|<cell|>|<cell|B
+    a<rsub|0>>>|<row|<cell|0>|<cell|B<rsup|d>>|<cell|>|<cell|\<vdots\>>>|<row|<cell|>|<cell|>|<cell|>|<cell|\<vdots\>>>|<row|<cell|>|<cell|>|<cell|>|<cell|B<rsup|2
+    d>-1>>>>>
+  </equation*>
+
+  with this lattice one can work with <math|B\<less\>c<rsub|2><around*|(|d|)>N<rsup|<frac|1|2
+  d-1>>>.
 
   <subsection|Some complexity theoretic aspects of CVP and SVP>
 
   \;
 
-  <section|Odds and Ends>
+  <with|font-series|bold|Decisional CVP.> Given a lattice basis <math|B>,
+  target <math|t> and a rational <math|r\<in\>Q>, determine whether
+  <math|dist<around*|(|t,\<cal-L\><around*|(|B|)>|)>\<leqslant\>r> or not.
+
+  <with|font-series|bold|Optimization CVP.> Given a lattice basis <math|B>
+  and <math|t>, determine <math|r=dist<around*|(|t,L<around*|(|B|)>|)>>.
+
+  <with|font-series|bold|Search CVP.> Given <math|B> and <math|t>, determine
+  <math|v\<in\>L<around*|(|B|)>> such that
+  <math|dist<around*|(|v,t|)>=dist<around*|(|t,L<around*|(|B|)>|)>>.
+
+  \;
+
+  <\note>
+    It is easy to note that order of difficultly of following problems is
+    <math|dec CVP\<leqslant\>opt CVP\<leqslant\>search CVP>.
+  </note>
+
+  <\theorem>
+    If there is an oracle to solve decision CVP, then there is an algorithm
+    to solve search CVP in polynomial time, using oracle for decision CVP.
+  </theorem>
+
+  <\proof>
+    We have the input as <math|<around*|(|B,t|)>>. We first determine
+    <math|r=dist<around*|(|t,\<cal-L\><around*|(|B|)>|)>>.
+
+    An upper bound for <math|r> is <math|R=<big|sum><rsub|i=1><rsup|n><around*|\<\|\|\>|b<rsub|i>|\<\|\|\>>>
+    \ <math|t=<big|sum>a<rsub|i>b<rsub|i>> and let
+    <math|x=<big|sum><around*|\<lfloor\>|a<rsub|i>|\<rfloor\>>b<rsub|i>>.
+    Then <math|dist<around*|(|v,t|)>\<leqslant\>dist<around*|(|x,t|)>\<leqslant\><big|sum><around*|\<\|\|\>|b<rsub|i>|\<\|\|\>>>.
+    Also <math|r> is a square root of integer, so <math|R<rsup|2>> is an
+    integer in the rage <math|<around*|[|1,R<rsup|2>|]>>, so performing a
+    binary search over these <math|R<rsup|2>> values in <math|2 logR> time
+    finds <math|r>.
+  </proof>
+
+  <\note>
+    It is sufficient to find a vector <math|x\<in\>\<cal-L\><around*|(|B|)>>
+    which is closest to <math|w+t> for some
+    <math|v\<in\>\<cal-L\><around*|(|B|)>>.
+  </note>
+
+  The idea is to sparsify the lattice; from
+  <math|<around*|(|b<rsub|!>,b<rsub|2>,\<ldots\>,b<rsub|n>|)>,t> consider
+  <math|<around*|(|2b<rsub|1>,b<rsub|2>,\<ldots\>,b<rsub|n>|)>>, invoke the
+  algorithm on <math|<around*|(|<around*|(|2b<rsub|1>,b<rsub|2>,\<ldots\>,b<rsub|n>|)>,t,r|)>>,
+  if yes we proceed with <math|<around*|(|2b<rsub|1>,2b<rsub|2>,\<ldots\>,b<rsub|n>|)>,t>
+  \ else proceed with <math|<around*|(|2b<rsub|1>,\<ldots\>,b<rsub|n>|)>,t-b<rsub|1>>.
+  We iterate this <math|K=n+log r> times to get basis
+  <math|<around*|(|2<rsup|k>b<rsub|1>,\<ldots\>,b<rsub|n>|)>> for a sub
+  lattice and a new target <math|t<rsub|1>=v<rsub|1>+t,v<rsub|1>\<in\>\<cal-L\><around*|(|B|)>>.
+  Perform this on each component to obtain the basis
+  <math|<around*|(|2<rsup|k>b<rsub|1>,\<ldots\>,2<rsup|k>b<rsub|n>|)>> for a
+  sublattice and a new target <math|s=v+t,v\<in\>\<cal-L\><around*|(|B|)>>.
+  <math|\<lambda\><rsub|1><around*|(|\<cal-L\><around*|(|B<rprime|'>|)>|)>\<geqslant\>2<rsup|k>.2<rsup|n>.r>.
+  The next closest vector to <math|s> is at a distance
+  <math|r.2<rsup|n>-r\<gtr\>2<rsup|n-1>>. Now applying Babai nearest plane
+  algorithm, we obtain a vector in <math|\<cal-L\><around*|(|B<rprime|'>|)>>
+  which is at distance atmost <math|2<rsup|n-1>> from <math|r>.\ 
+
+  <\theorem>
+    Dec-CVP is NP-complete
+  </theorem>
+
+  <\proof>
+    We consider an instance <math|<around*|(|B,t,r|)>>. Any
+    <math|x\<in\>\<cal-L\><around*|(|B|)>> such that,
+    <math|<around*|\<\|\|\>|x-t|\<\|\|\>>\<leqslant\>r> is an
+    <math|NP->witness.
+
+    All entries of <math|x> are atmost <math|<around*|\<\|\|\>|t|\<\|\|\>>+r>
+    in absolute value.\ 
+
+    <math|NP->hard: \ SubSet(SS) <math|\<leqslant\>> decCVP
+
+    SS: is there a subset <math|A\<subset\><around*|{|1,\<ldots\>,n|}>> such
+    that <math|<big|sum><rsub|i\<in\>A>a<rsub|i>=S>. Instance of dec-CVP is
+    constructed as the following:
+
+    <\equation*>
+      B=<matrix|<tformat|<table|<row|<cell|a<rsub|1>>|<cell|a<rsub|2>>|<cell|\<ldots\>>|<cell|a<rsub|n>>>|<row|<cell|2>|<cell|0>|<cell|>|<cell|0>>|<row|<cell|0>|<cell|2>|<cell|\<ldots\>>|<cell|0>>|<row|<cell|\<vdots\>>|<cell|\<vdots\>>|<cell|\<ddots\>>|<cell|\<vdots\>>>|<row|<cell|0>|<cell|0>|<cell|\<ldots\>>|<cell|2>>>>><rsub|<around*|(|n+1|)>*\<times\>n>t=<matrix|<tformat|<table|<row|<cell|s>>|<row|<cell|1>>|<row|<cell|1>>|<row|<cell|\<vdots\>>>|<row|<cell|1>>>>><rsub|<around*|(|n+1|)>\<times\>1>r=<sqrt|n>
+    </equation*>
+
+    Suppose the subset sum instance is an yes, then dec-CVP instalce is also
+    an yes.\ 
+  </proof>
+
+  <with|font-series|bold|GapCVP<math|<rsub|\<matheuler\>>>:input
+  <math|<around*|(|B,t,r|)>>>. Returns yes, if
+  <math|dist<around*|(|t,\<cal-L\><around*|(|B|)>|)>\<leqslant\>r>, no if
+  <math|dist<around*|(|t,\<cal-L\><around*|(|B|)>|)>\<gtr\>\<gamma\> r>.
+
+  <with|font-series|bold|GapSVP<math|<rsub|\<gamma\>>:>input
+  <math|<around*|(|B,r|)>>>. Returns yes, if
+  <math|\<lambda\><rsub|1><around*|(|\<cal-L\><around*|(|B|)>|)>\<leqslant\>r>,
+  no if <math|\<lambda\><rsub|1><around*|(|\<cal-L\><around*|(|B|)>|)>\<gtr\>\<gamma\>
+  r>.
+
+  <\note>
+    <math|\<gamma\>=1> transforms the above problems into usual decision
+    versions.
+  </note>
+
+  <\theorem>
+    For any <math|\<gamma\>\<geqslant\>1>, given access to an oracle for
+    <math|GapCVP<rsub|\<gamma\>>>, it is possible to solve
+    <math|GapSVP<rsub|\<gamma\>>> in polynomial time.
+  </theorem>
+
+  <\proof>
+    Instance of <math|GapSVP<rsub|\<gamma\>>> is <math|<around*|(|B,r|)>>.
+    Construct <math|B<rsub|i>=<around*|(|b<rsub|1>,\<ldots\>,b<rsub|i-1>,2b<rsub|i>,b<rsub|i+1>,\<ldots\>,b<rsub|n>|)>,t<rsub|i>=b<rsub|i>>
+    and <math|dist=r> and <math|<around*|(|B<rsub|i>,t<rsub|i>,r|)>> are
+    <math|n> instances of <math|GapCVP<rsub|\<gamma\>>>.
+
+    <with|font-series|bold|Algorithm:> Invoke the oracle on all the <math|n>
+    instances, if the oracle returns yes on any instance then return yes, o.w
+    return no.
+
+    <with|font-series|bold|Correctness:> Suppose <math|<around*|(|B,r|)>> is
+    an yes instance of gap-SVP<math|<rsub|\<gamma\>>>. So
+    <math|\<lambda\><rsub|1><around*|(|\<cal-L\><around*|(|B|)>|)>\<leqslant\>r>.
+    Let <math|v> be the shortest vector in <math|\<cal-L\><around*|(|B|)>> so
+    that <math|<around*|\<\|\|\>|v|\<\|\|\>>\<leqslant\>r>. Write
+    <math|v=<big|sum>a<rsub|i>b<rsub|i>>. Not all of <math|a<rsub|i>> can ve
+    even, for otherwise <math|<frac|v|2>> would be a shorter vector in
+    <math|\<cal-L\><around*|(|B|)>>. Suppose <math|a<rsub|i>> is odd, then
+    <math|<around*|\<\|\|\>|v-b<rsub|i>+b<rsub|i>|\<\|\|\>>\<leqslant\>r>
+    forcing <math|v+b<rsub|i>\<in\>\<cal-L\><around*|(|B|)>>. So the <math|i>
+    call returns yes.
+
+    Suppose <math|<around*|(|B,r|)>> is a no instance then
+    <math|\<lambda\><rsub|1><around*|(|\<cal-L\><around*|(|B|)>|)>\<geqslant\>\<gamma\>
+    r>. For a non zero vector <math|v>,<math|<around*|\<\|\|\>|v|\<\|\|\>>\<geqslant\>\<gamma\>r>.
+    For each, <math|v\<in\>\<cal-L\><around*|(|B<rsub|i>|)>,v-b<rsub|i>\<in\>\<cal-L\><around*|(|B|)>>
+    and <math|v-b<rsub|i>\<neq\>0>. So <math|<around*|\<\|\|\>|v-b<rsub|i>|\<\|\|\>>\<geqslant\>\<gamma\>
+    r> i.e. <math|dist<around*|(|b<rsub|i>,\<cal-L\><around*|(|B<rsub|i>|)>|)>\<geqslant\>\<gamma\>
+    r>
+  </proof>
+
+  <subsection|Odds and Ends - Some applications of Lattices>
+
+  <\theorem>
+    If <math|p> is a prime and <math|p\<equiv\>1 <around*|(|mod 4|)>> then
+    <math|p> can be written as sum of two squares.
+  </theorem>
+
+  <\proof>
+    <math|p\<equiv\>1<around*|(|mod 4|)>\<Rightarrow\><frac|p-1|2>> is even
+    and so <math|<around*|(|-1|)><rsup|<frac|p-1|2>>\<equiv\>1<around*|(|mod
+    p|)>>. So <math|-1> is quadratic residue mod <math|p>.
+
+    Let <math|i> be a root of <math|-1> so that
+    <math|p<around*|\||i<rsup|2>+1|\<nobracket\>>>. Consider
+    <math|B=<matrix|<tformat|<table|<row|<cell|1>|<cell|0>>|<row|<cell|i>|<cell|p>>>>>>
+    and <math|\<cal-L\><around*|(|B|)>> is a lattice. By Minkowski's theorem,
+    there exists a vector whose length is less than <math|<sqrt|2
+    det<around*|(|B|)>>>. <math|v=B x> for some
+    <math|x=<around*|(|x<rsub|1>,x<rsub|2>|)><rsup|T>\<in\>\<bbb-Z\><rsup|2>>.
+    <math|0\<less\><around*|\<\|\|\>|B x|\<\|\|\>><rsub|2><rsup|2>\<less\>2
+    det<around*|(|B|)>=2 p>. Taking <math|v\<neq\>0,0\<less\>x<rsub|1><rsup|2>+<around*|(|i
+    x<rsub|1>+p x<rsub|2>|)><rsup|2>\<less\>2 p>. So
+    <math|x\<equiv\>0<around*|(|mod p|)>> and
+    <math|0\<less\>x\<less\>2p\<Rightarrow\>x=p>.
+  </proof>
+
+  <subsubsection|Hermite Canonical Form>
+
+  \;
+
+  \;
 
   \;
 
@@ -2770,9 +3128,10 @@
     <associate|auto-36|<tuple|11.5|24>>
     <associate|auto-37|<tuple|11.6|25>>
     <associate|auto-38|<tuple|11.7|25>>
-    <associate|auto-39|<tuple|11.8|25>>
+    <associate|auto-39|<tuple|11.8|26>>
     <associate|auto-4|<tuple|1.3|2>>
-    <associate|auto-40|<tuple|12|25>>
+    <associate|auto-40|<tuple|11.9|27>>
+    <associate|auto-41|<tuple|11.9.1|27>>
     <associate|auto-5|<tuple|2|3>>
     <associate|auto-6|<tuple|2.1|3>>
     <associate|auto-7|<tuple|3|6>>
@@ -2948,9 +3307,13 @@
       aspects of CVP and SVP <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-39>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|12<space|2spc>Odds
-      and Ends> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-40><vspace|0.5fn>
+      <with|par-left|<quote|1.5fn>|11.9<space|2spc>Odds and Ends - Some
+      applications of Lattices <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-40>>
+
+      <with|par-left|<quote|3fn>|11.9.1<space|2spc>Hermite Canonical Form
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-41>>
     </associate>
   </collection>
 </auxiliary>
